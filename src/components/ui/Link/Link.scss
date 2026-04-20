@@ -1,0 +1,20 @@
+@use '../../../styles/helpers' as *;
+
+.link {
+  display: inline-block;
+  font-size: rem(18);
+  color: var(--color-pink);
+  border-bottom: 1px solid var(--color-pink);
+
+  @include laptop {
+    font-size: rem(16);
+  }
+
+  @include mobile {
+    font-size: rem(14);
+  }
+
+  @include mobile-s {
+    font-size: rem(12);
+  }
+}

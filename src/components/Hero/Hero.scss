@@ -1,0 +1,131 @@
+@use '../../styles/helpers/' as *;
+
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.hero {
+  background-color: var(--color-gray-hero);
+  overflow: hidden;
+
+  &__body {
+    position: relative;
+    padding-block: rem(250) rem(244);
+
+    @include laptop {
+      @include fluid-property(padding-top, 180, 120, $laptop-design, $tablet-design);
+      @include fluid-property(padding-bottom, 175, 150, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(padding-top, 120, 80, $tablet-design, $mobile-design);
+      @include fluid-property(padding-bottom, 150, 120, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(padding-top, 80, 50, $mobile, $mobile-s);
+    }
+
+    @include mobile-s{
+      padding-bottom: rem(180);
+    }
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    max-width: rem(556);
+
+    @include mobile {
+      max-width: rem(363);
+      padding-right: 0;
+    }
+  }
+
+  &__title {
+    margin: 0 0 rem(40);
+
+    @include laptop {
+      margin: 0 0 rem(30);
+    }
+
+    @include tablet {
+      margin: 0 0 rem(25);
+    }
+
+    @include mobile {
+      @include fluid-text-range(30, 24, 767.98, 480.98);
+      margin: 0 0 rem(20);
+    }
+
+    @include mobile-s {
+      margin: 0 0 rem(16);
+    }
+  }
+
+  &__description {
+    font-size: rem(26);
+    line-height: 1.3;
+    max-width: rem(554);
+    margin: 0 0 rem(90);
+
+    @include laptop {
+      font-size: rem(22);
+      max-width: rem(450);
+      margin: 0 0 rem(60);
+    }
+
+    @include tablet {
+      font-size: rem(18);
+      max-width: rem(370);
+      margin: 0 0 rem(50);
+    }
+
+    @include mobile{
+      font-size: rem(14);
+      max-width: rem(240);
+      margin: 0 0 rem(40);
+    }
+
+    @include mobile-s {
+      margin: 0 0 rem(30);
+      max-width: rem(200);
+    }
+  }
+
+  &__image {
+    position: absolute;
+    right: rem(-250);
+    bottom: 0;
+    width: min(rem(997), 71vw);
+
+    @include laptop {
+      right: rem(-120);
+      width: min(rem(700), 60vw);
+      bottom: 0;
+    }
+
+    @include tablet {
+      right: rem(-110);
+      width: min(rem(650), 60vw);
+    }
+
+    @include mobile {
+      width: clamp(rem(280), 58vw, rem(374));
+      right: rem(-30);
+      bottom: 0;
+    }
+
+    @include mobile-s {
+      width: min(rem(280), 80vw);
+      right: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

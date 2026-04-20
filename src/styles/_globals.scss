@@ -1,0 +1,92 @@
+@use 'helpers' as *;
+
+body {
+  @include fluid-text(26, 12);
+
+  font-family: var(--font-family-base);
+  color: var(--color-dark-100);
+  background-color: var(--color-white);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  color: var(--color-dark-100);
+  font-family: var(--font-family-accent);
+  font-weight: 400;
+}
+
+h1, .h1 {
+  font-size: rem(46);
+  line-height: 1.03;
+
+  @include laptop {
+    font-size: rem(40);
+  }
+
+  @include tablet {
+    font-size: rem(35);
+  }
+  
+  @include mobile {
+    font-size: rem(30);
+  }
+
+  @include mobile-s {
+    font-size: rem(24);
+  }
+}
+
+h2, .h2 {
+  font-size: rem(42);
+}
+
+h3, .h3 {
+  font-size: rem(20);
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  color: var(--color-white);
+
+  @include hover {
+    color: var(--color-pink);
+  }
+
+  &[class] {
+    text-decoration: none;
+  }
+}
+
+:focus-visible {
+  outline: rem(2) dashed var(--color-pink);
+  outline-offset: rem(4);
+  transition-duration: 0s !important;
+}
+
+// Увеличиваем размер кликабельной области кнопок, не меняя сам размер кнопок. Делаем это с помощью псевдоэлемента before. Но делаем это только для кнопок, у которых есть атрибут aria-label
+a,
+button {
+  &[aria-label] {
+    position: relative;
+
+    &::before { 
+      @include abs-center;   // С помощью миксин центрируем псевдоэлемент и задаем размеры
+      @include square(rem(44));
+      
+      content: '';
+    }
+  }
+}

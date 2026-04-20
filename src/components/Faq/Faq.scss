@@ -1,0 +1,247 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.faq {
+  background-color: var(--color-gray-50);
+
+  @include fluid-property(padding-block, 150, 120, $desktop-design, $laptop-design);
+
+  @include laptop {
+    @include fluid-property(padding-top, 120, 80, $laptop-design, $tablet-design);
+    @include fluid-property(padding-bottom, 120, 90, $laptop-design, $tablet-design);
+  }
+
+  @include tablet {
+    @include fluid-property(padding-top, 80, 60, $tablet-design, $mobile-design);
+    @include fluid-property(padding-bottom, 90, 76, $tablet-design, $mobile-design);
+  }
+
+  @include mobile {
+    @include fluid-property(padding-top, 60, 46, $mobile-design, $mobile-s-design);
+    @include fluid-property(padding-bottom, 76, 46, $mobile-design, $mobile-s-design);
+  }
+
+  &__title {
+    font-family: var(--font-family-accent);
+
+    @include fluid-text-range(42, 36, $desktop-design, $laptop-design);
+    @include fluid-property(margin-bottom, 59, 50, $desktop-design, $laptop-design);
+
+    @include laptop {
+      @include fluid-text-range(36, 32, $laptop-design, $tablet-design);
+      @include fluid-property(margin-bottom, 50, 46, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(32, 26, $tablet-design, $mobile-design);
+      @include fluid-property(margin-bottom, 46, 40, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      line-height: 1.2;
+      @include fluid-text-range(26, 20, $mobile-design, $mobile-s-design);
+      @include fluid-property(margin-bottom, 40, 38, $mobile-design, $mobile-s-design);
+    }
+
+    &-prefix {
+      @include mobile-s {
+        display: none;
+      }
+    }
+  }
+
+  &__list {
+    border-top: rem(1) solid var(--color-gray-40);
+  }
+
+  &__item {
+    border-bottom: rem(1) solid var(--color-gray-40);
+  }
+
+  &__button {
+    width: 100%;
+    min-height: rem(98);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: rem(80);
+    padding-block: rem(34);
+    padding-inline: 0;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+
+    @include hover {
+      .faq__question {
+        color: var(--color-pink);
+      }
+
+      .faq__icon::before,
+      .faq__icon::after {
+        background-color: var(--color-pink);
+      }
+    }
+
+    @include fluid-property(min-height, 98, 92, $desktop-design, $laptop-design);
+    @include fluid-property(padding-block, 34, 30, $desktop-design, $laptop-design);
+
+    @include laptop {
+      @include fluid-property(min-height, 92, 86, $laptop-design, $tablet-design);
+      @include fluid-property(padding-block, 30, 26, $laptop-design, $tablet-design);
+      @include fluid-property(column-gap, 80, 68, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(min-height, 86, 80, $tablet-design, $mobile-design);
+      @include fluid-property(padding-block, 26, 18, $tablet-design, $mobile-design);
+      @include fluid-property(column-gap, 68, 53, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(min-height, 80, 68, $mobile-design, $mobile-s-design);
+      @include fluid-property(padding-block, 18, 16, $mobile-design, $mobile-s-design);
+      @include fluid-property(column-gap, 53, 24, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__question {
+    max-width: rem(1040);
+    font-size: rem(20);
+    line-height: 1.5;
+    color: var(--color-dark-100);
+    transition: color var(--transition-duration);
+
+    @include laptop {
+      @include fluid-text-range(20, 18, $laptop-design, $tablet-design);
+    } 
+
+    @include tablet {
+      @include fluid-text-range(18, 16, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      line-height: 1.4;
+      @include fluid-text-range(16, 13, $mobile-design, $mobile-s-design);
+    }
+
+    @include mobile-s {
+      font-weight: 300;
+    }
+  }
+
+  &__icon {
+    position: relative;
+    flex-shrink: 0;
+    width: rem(36);
+    height: rem(36);
+
+    @include laptop {
+      @include fluid-property(width, 36, 32, $laptop-design, $tablet-design);
+      @include fluid-property(height, 36, 32, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(width, 32, 30, $tablet-design, $mobile-design);
+      @include fluid-property(height, 32, 30, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(width, 30, 24, $mobile-design, $mobile-s-design);
+      @include fluid-property(height, 30, 24, $mobile-design, $mobile-s-design);
+    }
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: rem(36);
+      height: rem(2);
+      border-radius: rem(2);
+      background-color: var(--color-dark-100);
+      transform-origin: center;
+      transition: 
+                  transform var(--transition-duration),
+                  background-color var(--transition-duration);
+      backface-visibility: hidden;
+      will-change: transform;
+
+      @include laptop {
+        @include fluid-property(width, 36, 32, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-property(width, 32, 30, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        @include fluid-property(width, 30, 24, $mobile-design, $mobile-s-design);
+      }
+
+      @include mobile-s {
+        height: rem(1.5);
+      }
+    }
+
+    &::before {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    &::after {
+      transform: translate(-50%, -50%) rotate(90deg);
+    }
+  }
+
+  &__content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: rem(30);
+    transition: 
+              max-height 0.35s ease,
+              opacity 0.25s ease,
+              padding 0.35s ease;
+  }
+
+  &__answer {
+    max-width: rem(908);
+    p {
+      font-size: rem(18);
+      font-weight: 300;
+      line-height: 1.5;
+    }
+  }
+
+  &__item.is-open {
+    .faq__content {
+      max-height: rem(300);
+      opacity: 1;
+      padding-top: rem(16);
+      padding-bottom: rem(50);
+    }
+
+    .faq__icon {
+      &::before,
+      &::after {
+        background-color: var(--color-pink);
+      }
+
+      &::before {
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+
+      &::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+    }
+  }
+}

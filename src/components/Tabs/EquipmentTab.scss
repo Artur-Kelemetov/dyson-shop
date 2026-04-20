@@ -1,0 +1,213 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.equipment-tab {
+  display: grid;
+  grid-template-columns: minmax(0, rem(555)) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: rem(307) rem(474);
+  column-gap: rem(20);
+  row-gap: rem(20);
+
+  @include laptop {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    row-gap: rem(20);
+    column-gap: 0;
+  }
+
+  @include mobile {
+    @include fluid-property(row-gap, 20, 12, $mobile-design, $mobile-s-design);
+  }
+
+  &__card {
+    min-width: 0;
+    background-color: var(--color-white);
+
+    @include laptop {
+      flex-direction: row;
+      column-gap: rem(22);
+    }
+
+    @include mobile {
+      @include fluid-property(column-gap, 22, 10, $mobile-design, $mobile-s-design);
+    }
+
+    &:first-child {
+      grid-row: span 2;
+      display: flex;
+      flex-direction: column;
+
+      @include laptop {
+        grid-row: auto;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .equipment-tab__image {
+        @include laptop {
+          @include fluid-property(max-width, 380, 340, $laptop-design, $tablet-design);
+          @include fluid-property(max-height, 380, 340, $laptop-design, $tablet-design);
+        }
+
+        @include tablet {
+          @include fluid-property(max-width, 340, 302, $tablet-design, $mobile-design);
+          @include fluid-property(max-height, 340, 302, $tablet-design, $mobile-design);
+        }
+
+        @include mobile {
+          @include fluid-property(max-width, 302, 140, $mobile-design, $mobile-s-design);
+          @include fluid-property(max-height, 302, 140, $mobile-design, $mobile-s-design);
+        }
+      }
+
+      .equipment-tab__content {
+        padding: rem(55) rem(40);
+
+        @include laptop {
+          padding-left: 0;
+          @include fluid-property(padding-top, 80, 60, $laptop-design, $tablet-design);
+          @include fluid-property(padding-right, 60, 40, $laptop-design, $tablet-design);
+          @include fluid-property(padding-bottom, 100, 80, $laptop-design, $tablet-design);
+        }
+
+        @include mobile {
+          padding: 0;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      grid-column: span 2;
+      display: flex;
+      align-items: center;
+      column-gap: rem(20);
+      padding-left: rem(35);
+      padding-right: rem(40);
+
+      @include laptop {
+        grid-column: auto;
+        padding: 0;
+      }
+
+      @include mobile {
+        @include fluid-property(column-gap, 22, 10, $mobile-design, $mobile-s-design);
+      }
+
+      .equipment-tab__image {
+        max-width: rem(296);
+        max-height: rem(296);
+
+        @include laptop {
+          @include fluid-property(max-width, 380, 340, $laptop-design, $tablet-design);
+          @include fluid-property(max-height, 380, 340, $laptop-design, $tablet-design);
+        }
+
+        @include tablet {
+          @include fluid-property(max-width, 340, 302, $tablet-design, $mobile-design);
+          @include fluid-property(max-height, 340, 302, $tablet-design, $mobile-design);
+        }
+
+        @include mobile {
+          @include fluid-property(max-width, 302, 140, $mobile-design, $mobile-s-design);
+          @include fluid-property(max-height, 302, 140, $mobile-design, $mobile-s-design);
+        }
+      }
+
+      .equipment-tab__content {
+        @include laptop {
+          @include fluid-property(padding-top, 80, 60, $laptop-design, $tablet-design);
+          @include fluid-property(padding-right, 60, 40, $laptop-design, $tablet-design);
+          @include fluid-property(padding-bottom, 100, 80, $laptop-design, $tablet-design);
+        }
+
+        @include mobile {
+          padding: 0;
+          padding-right: rem(40);
+        }
+      }
+    }
+
+    &:nth-child(3),
+    &:nth-child(4) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @include laptop {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .equipment-tab__image {
+        max-width: rem(282);
+        max-height: rem(282);
+
+        @include laptop {
+          @include fluid-property(max-width, 380, 340, $laptop-design, $tablet-design);
+          @include fluid-property(max-height, 380, 340, $laptop-design, $tablet-design);
+        }
+
+        @include tablet {
+          @include fluid-property(max-width, 340, 302, $tablet-design, $mobile-design);
+          @include fluid-property(max-height, 340, 302, $tablet-design, $mobile-design);
+        }
+
+        @include mobile {
+          @include fluid-property(max-width, 302, 140, $mobile-design, $mobile-s-design);
+          @include fluid-property(max-height, 302, 140, $mobile-design, $mobile-s-design);
+        }
+      }
+
+      .equipment-tab__content {
+        padding: 0 rem(40) rem(55);
+
+        @include laptop {
+          padding-left: 0;
+          @include fluid-property(padding-top, 80, 60, $laptop-design, $tablet-design);
+          @include fluid-property(padding-right, 60, 40, $laptop-design, $tablet-design);
+          @include fluid-property(padding-bottom, 100, 80, $laptop-design, $tablet-design);
+        }
+
+        @include mobile {
+          padding: 0;
+          padding-right: rem(40);
+        }
+      }
+    }
+  }
+
+  &__title {
+    font-size: rem(30);
+    font-family: var(--font-family-accent);
+    line-height: 1.2;
+    margin-bottom: rem(20);
+
+    @include tablet {
+      @include fluid-text-range(30, 20, $tablet-design, $mobile-design);
+      @include fluid-property(margin-bottom, 20, 14, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(20, 13, $mobile-design, $mobile-s-design);
+      @include fluid-property(margin-bottom, 14, 8, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__text {
+    font-size: rem(18);
+    font-weight: 300;
+
+    @include tablet {
+      @include fluid-text-range(18, 16, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(16, 11, $mobile-design, $mobile-s-design);
+    }
+  }
+}

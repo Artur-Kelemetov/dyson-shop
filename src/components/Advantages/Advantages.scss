@@ -1,0 +1,178 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.advantages {
+  @include fluid-property(padding-block, 150, 100, $desktop-design, $laptop-design);
+
+  @include laptop {
+    @include fluid-property(padding-block, 100, 80, $laptop-design, $tablet-design)
+  }
+
+  @include tablet {
+    @include fluid-property(padding-top, 80, 60, $tablet-design, $mobile-design);
+    @include fluid-property(padding-bottom, 80, 70, $tablet-design, $mobile-design);
+  }
+
+  @include mobile {
+    @include fluid-property(padding-top, 60, 46, $mobile-design, $mobile-s-design);
+    @include fluid-property(padding-top, 70, 46, $mobile-design, $mobile-s-design);
+  }
+
+  @include mobile-s {
+    padding-block: rem(46);
+  }
+
+  &__title {
+    @include fluid-property(margin-bottom, 60, 55, $desktop-design, $laptop-design);
+    @include fluid-property(font-size, 42, 38, $desktop-design, $laptop-design);
+
+    @include laptop {
+      @include fluid-property(font-size, 38, 32, $laptop-design, $tablet-design);
+      @include fluid-property(margin-bottom, 55, 50, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(font-size, 32, 26, $tablet-design, $mobile-design);
+      @include fluid-property(margin-bottom, 50, 40, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(font-size, 26, 20, $mobile-design, $mobile-s-design);
+      @include fluid-property(margin-bottom, 40, 30, $mobile-design, $mobile-s-design);
+    }
+
+    @include mobile-s {
+      font-size: rem(20);
+      margin-bottom: rem(30);
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(20);
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      gap: rem(15);
+    }
+
+    @include mobile-s {
+      gap: rem(10);
+    }
+  }
+}
+
+.advantage-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: rem(280);
+  padding: rem(26) rem(20) rem(24);
+  background-color: var(--color-white);
+  box-shadow: 0 rem(4) rem(41) 0 rgba(0, 0, 0, 0.05);
+
+  @include laptop {
+    min-height: rem(240);
+    padding-top: rem(22);
+  }
+
+  @include tablet {
+    min-height: rem(210);
+    padding-top: rem(20);
+  }
+
+  @include mobile {
+    min-height: rem(190);
+    padding-top: rem(18);
+  }
+
+  @include mobile-s {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    min-height: rem(116);
+    padding: rem(16) rem(7) rem(26);
+    column-gap: rem(43);
+  }
+
+  &__icon {
+    margin-bottom: rem(15);
+
+    @include laptop {
+      margin-bottom: rem(13);
+    }
+
+    @include tablet {
+      margin-bottom: rem(12);
+    }
+
+    @include mobile {
+      width: rem(74);
+      height: rem(74);
+      margin-bottom: rem(11);
+    }
+
+    @include mobile-s {
+      flex-shrink: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &__body {
+    @include mobile-s {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__title {
+    margin-bottom: rem(13);
+    line-height: 1.2;
+    color: var(--color-black);
+
+    @include laptop {
+      font-size: rem(18);
+      margin-bottom: rem(11);
+    }
+
+    @include tablet {
+      font-size: rem(16);
+      margin-bottom: rem(9);
+    }
+
+    @include mobile {
+      font-size: rem(14);
+      margin-bottom: rem(8);
+    }
+  }
+
+  &__description {
+    font-size: rem(18);
+    font-weight: 300;
+    line-height: 1.3;
+    color: var(--color-black);
+
+    @include laptop {
+      font-size: rem(16);
+    }
+
+    @include tablet {
+      font-size: rem(14);
+    }
+
+    @include mobile {
+      font-size: rem(12);
+    }
+  }
+}

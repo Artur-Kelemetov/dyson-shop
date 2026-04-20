@@ -1,0 +1,180 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.product-image-slider {
+  display: flex;
+  flex-direction: column;
+
+  &__viewport {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    touch-action: pan-y;
+  }
+
+  &__track {
+    display: flex;
+    transition: transform var(--transition-duration) ease;
+    will-change: transform;
+  }
+
+  &__image-link {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: rem(20) rem(20) rem(5);
+    background-color: var(--color-white);
+    overflow: hidden;
+    width: 100%;
+
+    @include fluid-property(min-height, 440, 280, $desktop-design, $laptop-design);
+
+    @include laptop {
+      @include fluid-property(min-height, 280, 196, $laptop-design, $tablet-design);
+      @include fluid-property(padding-top, 20, 10, $laptop-design, $tablet-design);
+      @include fluid-property(padding-top, 20, 10, $laptop-design, $tablet-design);
+      @include fluid-property(padding-inline, 20, 10, $laptop-design, $tablet-design);
+    }
+
+    @include mobile {
+      min-height: rem(196);
+      @include fluid-property(min-height, 196, 170, $mobile-design, $mobile-s-design);
+      padding: rem(20) rem(20) rem(0);
+      @include fluid-property(padding-top, 20, 10, $mobile-design, $mobile-s-design);
+      @include fluid-property(padding-inline, 20, 10, $mobile-design, $mobile-s-design);
+    }
+
+    @include mobile-s {
+      padding: rem(10) rem(10) rem(0);
+    }
+  }
+
+  &__image {
+    display: block;
+    max-width: 100%;
+    max-height: rem(440);
+    object-fit: contain;
+  }
+
+  &__button {
+    top: 50%;
+    translate: 0 -50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: var(--color-gray-40);
+    z-index: 2;
+    cursor: pointer;
+    transition: 
+      opacity var(--transition-duration) ease,
+      visibility var(--transition-duration) ease;
+    
+    @include square(rem(32));
+    @include hide;
+
+    @include tablet {
+      display: none;
+    }
+
+    &[aria-label] {
+      position: absolute;
+
+      &::before { 
+        @include square(rem(100));
+      }
+    }
+
+    &--prev {
+      left: rem(20);
+    }
+
+    &--next {
+      right: rem(20);
+    }
+
+    svg {
+      display: block;
+
+      @include square(rem(28));
+
+      @include laptop {
+        @include fluid-property(width, 28, 18, $laptop-design, $tablet-design);
+        @include fluid-property(height, 28, 18, $laptop-design, $tablet-design);
+      }
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: rem(10);
+    transition: 
+      opacity var(--transition-duration) ease,
+      visibility var(--transition-duration) ease;
+
+    @include hide;
+
+    @include laptop{
+      column-gap: rem(8);
+    }
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__dot {
+    padding: 0;
+    border: #{rem(1)} solid var(--color-gray-40);
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    
+    @include square(rem(12));
+
+    @include laptop {
+      @include fluid-property(width, 12, 8, $laptop-design, $tablet-design);
+      @include fluid-property(height, 12, 8, $laptop-design, $tablet-design);
+    }
+
+    &.is-active {
+      background-color: var(--color-pink);
+      border-color: var(--color-pink);
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &--empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: rem(440);
+    border-radius: rem(20);
+    background-color: var(--color-white);
+  }
+
+  &__placeholder {
+    color: var(--color-dark-50);
+  }
+
+  @include hover {
+    .product-image-slider__button,
+    .product-image-slider__pagination {
+      opacity: 0.8;
+      visibility: visible;
+    }
+  }
+}

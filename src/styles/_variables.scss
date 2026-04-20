@@ -1,0 +1,37 @@
+@use 'helpers' as *;
+
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-dark-100: #111111;
+
+  --color-gray-hero:#DDDDDD;
+  --color-gray-10: #CCCCCC;
+  --color-gray-20: #FDFDFD;
+  --color-gray-30: #909090;
+  --color-gray-40: #ABABAB;
+  --color-gray-50: #F8F8F8;
+  --color-gray-60: #D9D9D9;
+  --color-gray-70: #F5F5F5;
+
+  --color-pink: #C5358C;
+  --color-pink-hover:  #E93D85;
+  --color-green: #68AE5C;
+  --color-red: #DC5B5B;
+
+
+  --border: #{rem(1)} solid var(--color-dark-100);
+
+
+  --font-family-base: 'Open Sans', sans-serif;
+  --font-family-accent: 'NAMU Pro', sans-serif;
+
+
+  --transition-duration: 0.2s;
+
+  --header-height: #{rem(90)};
+
+  --container-width: #{rem(1360)};
+  --container-padding-x: #{rem(20)};
+}

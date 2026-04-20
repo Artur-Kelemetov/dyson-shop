@@ -1,0 +1,42 @@
+@use '../../../styles/helpers' as *;
+
+.logo {
+  position: relative;
+  width: rem(183);
+  flex-shrink: 0;
+}
+
+.header__logo {
+  top: rem(2);
+
+  @include laptop {
+    width: rem(150);
+  }
+
+  @include mobile {
+    top: rem(2);
+    width: rem(142);
+  }
+
+  @include mobile-s {
+    width: rem(94);
+  }
+}
+
+.footer__logo {
+  @include laptop {
+    width: rem(150);
+  }
+
+  @include tablet {
+    width: rem(125);
+  }
+
+  @include mobile {
+    width: rem(100);
+  }
+
+  @include mobile-s {
+    width: rem(110);
+  }
+}

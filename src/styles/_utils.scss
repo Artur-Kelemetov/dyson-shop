@@ -1,0 +1,33 @@
+@use 'helpers' as *;
+
+// Пишем два утилитарных класса. В container пишем максимальную ширину контентного контейнера. Важное уточнение: чтобы использовать css-переменную, требуется такой синтаксис var(). Т.е объявляются переменные так (--), а используются так var(--имя-переменной). Для центрирования элемента по горизонтали используем свойство margin-inline. Когда вы используете margin-inline: auto;, браузер автоматически распределяет доступное горизонтальное пространство поровну между левым и правым внешними отступами. (Это то же самое, что и margin-left: auto; и margin-right: auto;. Одно свойство margin-inline: auto; заменяет собой два). То же самое со свойством padding-inline, оно заменяет два свойства padding-left и padding-right. В значении применяем переменную --container-padding-x при помощи var(). 
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+// В классе .visually-hidden применяем миксину visually-hidden
+.visually-hidden {
+  @include visually-hidden;
+}
+
+// Добавляем еще классы, что удобно скрыть элемент на определенном диапозоне (в данном случае на 767px)
+.hidden-mobile {
+  @include mobile {
+    display: none !important;
+  }
+}
+
+.hidden-tablet {
+  @include tablet {
+    display: none !important;
+  }
+}
+
+// Класс, чтобы скрыть элемент на ширине экране больше 767px
+.visible-mobile {
+  @include mobile-above {
+    display: none !important;
+  }
+}

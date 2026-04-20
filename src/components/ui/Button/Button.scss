@@ -1,0 +1,81 @@
+@use '../../../styles/helpers' as *;
+
+.button {
+  padding-block: rem(15.5);
+  font-size: rem(24);
+  border: var(--border);
+  white-space: nowrap;
+
+  @include laptop {
+    font-size: rem(20);
+    padding-block: rem(12);
+  }
+
+  @include tablet {
+    font-size: rem(18);
+    padding-block: rem(8);
+  }
+
+  @include mobile {
+    font-size: rem(16);
+  }
+
+  @include mobile-s {
+    font-size: rem(15);
+  }
+
+  &--accent {
+    padding-inline: rem(51);
+    color: var(--color-white);
+    background-color: var(--color-pink);
+    border: #{rem(1)} solid var(--color-pink);
+    border-radius: rem(3);
+
+    @include hover {
+      background-color: var(--color-pink-hover);
+      border-color: var(--color-pink-hover);
+    }
+
+    @include laptop {
+      padding: rem(12) rem(37);
+    }
+
+    @include tablet {
+      padding: rem(10) rem(33);
+    }
+
+    @include mobile {
+      padding: rem(7) rem(26.5);
+    }
+  }
+
+  &--dark {
+    background-color: var(--color-dark-100);
+    border-radius: rem(3);
+  }
+
+  &--white {
+    background-color: var(--color-white);
+    border-radius: rem(3);
+  }
+
+  &--small {
+    font-size: rem(18);
+    padding: rem(7) rem(20);
+    border-radius: rem(31);
+
+    @include laptop {
+      font-size: rem(16);
+    }
+
+    @include mobile {
+      font-size: rem(14);
+      padding: rem(6) rem(12);
+    }
+
+    @include mobile-s {
+      font-size: rem(12);
+    }
+  }
+}
+

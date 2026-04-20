@@ -1,0 +1,72 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.breadcrumbs {
+  margin-block: rem(50);
+
+  @include laptop {
+    @include fluid-property(margin-block, 50, 30, $laptop-design, $tablet-design);
+  }
+  
+  @include tablet {
+    @include fluid-property(margin-top, 30, 22, $tablet-design, $mobile-design);
+    @include fluid-property(margin-bottom, 30, 14, $tablet-design, $mobile-design);
+  }
+
+  @include mobile-s {
+    display: none;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: rem(8);
+    row-gap: rem(4);
+    margin: 0;
+    padding: 0;
+
+    @include tablet {
+      @include fluid-property(column-gap, 8, 6, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    column-gap: rem(8);
+    min-width: 0;
+  }
+
+  &__item > a,
+  &__item > span {
+    font-size: rem(20);
+    font-weight: 300;
+    line-height: 1.4;
+
+    @include tablet {
+      @include fluid-text-range(20, 16, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(16, 12, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__item > a {
+    color: var(--color-gray-40);
+    text-decoration: none;
+  }
+
+  &__item > span {
+    color: var(--color-dark-100);
+  }
+
+  &__separator {
+    color: var(--color-dark-100);
+  }
+}

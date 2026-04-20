@@ -1,0 +1,82 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+
+.pagination {
+  display: flex;
+  align-items: center;
+  column-gap: rem(30);
+
+  @include laptop {
+    @include fluid-property(column-gap, 30, 22, $laptop-design, $tablet-design);
+  }
+
+  @include tablet {
+    @include fluid-property(column-gap, 22, 15, $tablet-design, $mobile-design);
+  }
+
+  &__buttons {
+    display: flex;
+    column-gap: rem(20);
+
+    @include laptop {
+      @include fluid-property(column-gap, 20, 15, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(column-gap, 15, 10, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: var(--border);
+    background-color: transparent;
+    border-radius: rem(3);
+
+    @include square(rem(64));
+
+    @include laptop {
+      @include fluid-property(width, 64, 55,  $laptop-design, $tablet-design);
+      @include fluid-property(height, 64, 55,  $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(width, 55, 36, $tablet-design, $mobile-design);
+      @include fluid-property(height, 55, 36, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__icon {
+    @include laptop {
+      @include fluid-property(width, 35, 30,  $laptop-design, $tablet-design);
+      @include fluid-property(height, 35, 30,  $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(width, 30, 21, $tablet-design, $mobile-design);
+      @include fluid-property(height, 30, 21, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__info {
+    font-size: rem(24);
+    line-height: 1.4;
+
+    @include laptop {
+      @include fluid-text-range(24, 20, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(20, 16, $tablet-design, $mobile-design);
+    }
+  }
+}

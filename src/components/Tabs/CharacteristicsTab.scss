@@ -1,0 +1,72 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.characteristics-tab {
+  max-width: rem(1130);
+  margin-inline: auto;
+  
+  &__item {
+    --characteristics-value-column-width: #{rem(455)};
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, var(--characteristics-value-column-width));
+    align-items: center;
+    min-height: rem(100);
+    border-bottom: #{rem(1)} solid var(--color-gray-30);
+
+    @include laptop {
+      @include fluid-property(--characteristics-value-column-width, 455, 320, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(min-height, 100, 70, $tablet-design, $mobile-design);
+      @include fluid-property(--characteristics-value-column-width, 320, 210, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(min-height, 70, 58, $mobile-design, $mobile-s-design);
+      @include fluid-property(--characteristics-value-column-width, 210, 120, $mobile-design, $mobile-s-design);
+    }
+
+    &:first-child {
+      border-top: #{rem(1)} solid var(--color-gray-30);
+    }
+  }
+
+  &__label {
+    font-size: rem(18);
+    font-weight: 300;
+    
+    @include tablet {
+      @include fluid-text-range(18, 16, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(16, 13, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__value {
+    font-size: rem(30);
+    font-family: var(--font-family-accent);
+    line-height: 1.2;
+    margin: 0;
+
+    @include laptop {
+      @include fluid-text-range(30, 26, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(26, 24, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(24, 17, $mobile-design, $mobile-s-design);
+    }
+  }
+}

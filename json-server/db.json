@@ -1,0 +1,2441 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческами",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 59490,
+      "oldPrice": 69990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 100,
+      "isNew": false,
+      "rating": 4.8,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic Patina Topaz Orange/1.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic Patina Topaz Orange/2.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic Patina Topaz Orange/3.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic Patina Topaz Orange/4.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic Patina Topaz Orange/5.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic Patina Topaz Orange/6.webp"
+      ]
+    },
+    {
+      "id": "2",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap HS05 Complete Long оттенка Vinca blue Rosé",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 61990,
+      "oldPrice": 72990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 99,
+      "isNew": false,
+      "rating": 4.3,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap HS05 Complete Long оттенка Vinca blue Rosé с кейсом и дорожным чехлом для длинных волос/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 Complete Long оттенка Vinca blue Rosé с кейсом и дорожным чехлом для длинных волос/2.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 Complete Long оттенка Vinca blue Rosé с кейсом и дорожным чехлом для длинных волос/3.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 Complete Long оттенка Vinca blue Rosé с кейсом и дорожным чехлом для длинных волос/4.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 Complete Long оттенка Vinca blue Rosé с кейсом и дорожным чехлом для длинных волос/5.webp"
+      ]
+    },
+    {
+      "id": "3",
+      "category": "hair-dryers",
+      "title": "Фен Dyson HD16 Supersonic Nural Ceramic PinkRose Gold",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 59490,
+      "oldPrice": 69990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 98,
+      "isNew": true,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic PinkRose Gold + чехол/1.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic PinkRose Gold + чехол/2.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic PinkRose Gold + чехол/3.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic PinkRose Gold + чехол/4.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic PinkRose Gold + чехол/5.webp"
+      ]
+    },
+    {
+      "id": "4",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Airstrait HT01 Ceramic Pink",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 50990,
+      "oldPrice": 59990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 97,
+      "isNew": false,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Ceramic Pink/1.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Ceramic Pink/2.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Ceramic Pink/3.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Ceramic Pink/4.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Ceramic Pink/5.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Ceramic Pink/6.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Ceramic Pink/7.webp"
+      ]
+    },
+    {
+      "id": "5",
+      "category": "stylers",
+      "title": "Стайлер Dyson HS08 Airwrap Complete Long Strawberry BronzeBlush Pink",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 61990,
+      "oldPrice": 72990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 96,
+      "isNew": true,
+      "rating": 4.8,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Strawberry BronzeBlush Pink + бокс чехол/1.webp",
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Strawberry BronzeBlush Pink + бокс чехол/2.webp",
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Strawberry BronzeBlush Pink + бокс чехол/3.webp",
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Strawberry BronzeBlush Pink + бокс чехол/4.webp"
+      ]
+    },
+    {
+      "id": "6",
+      "category": "hair-dryers",
+      "title": "Фен Dyson HD16 Supersonic Nural Vinca Blue Topaz Orange",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 59490,
+      "oldPrice": 69990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 95,
+      "isNew": true,
+      "rating": 4.7,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Vinca Blue Topaz Orange + чехол/1.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Vinca Blue Topaz Orange + чехол/2.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Vinca Blue Topaz Orange + чехол/3.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Vinca Blue Topaz Orange + чехол/4.webp"
+      ]
+    },
+    {
+      "id": "7",
+      "category": "hair-dryers",
+      "title": "Фен Dyson HD16 Supersonic Nural Jasper Plum",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 59490,
+      "oldPrice": 69990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 94,
+      "isNew": false,
+      "rating": 4.5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Jasper Plum + чехол/1.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Jasper Plum + чехол/2.webp"
+      ]
+    },
+    {
+      "id": "8",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Airstrait HT01 берлинская лазурь насыщенная медь",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 50990,
+      "oldPrice": 59990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 93,
+      "isNew": true,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 берлинская лазурьнасыщенная медь/1.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 берлинская лазурьнасыщенная медь/2.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 берлинская лазурьнасыщенная медь/3.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 берлинская лазурьнасыщенная медь/4.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 берлинская лазурьнасыщенная медь/5.webp"
+      ]
+    },
+    {
+      "id": "9",
+      "category": "stylers",
+      "title": "Новый Стайлер Dyson Airwrap HS09 Ceramic Pink",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 61990,
+      "oldPrice": 72990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 92,
+      "isNew": false,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Новый Стайлер Dyson Airwrap HS09 Co-anda2x для выпрямления и укладки волос Ceramic Pinkрозовый с чехлом для хранения/1.webp",
+        "/images/stylers/Новый Стайлер Dyson Airwrap HS09 Co-anda2x для выпрямления и укладки волос Ceramic Pinkрозовый с чехлом для хранения/2.webp",
+        "/images/stylers/Новый Стайлер Dyson Airwrap HS09 Co-anda2x для выпрямления и укладки волос Ceramic Pinkрозовый с чехлом для хранения/3.webp",
+        "/images/stylers/Новый Стайлер Dyson Airwrap HS09 Co-anda2x для выпрямления и укладки волос Ceramic Pinkрозовый с чехлом для хранения/4.webp"
+      ]
+    },
+    {
+      "id": "10",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Airstrait HT01 Клубнично-бронзовый",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 50990,
+      "oldPrice": 59990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 91,
+      "isNew": true,
+      "rating": 5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Клубнично-бронзовыйРумяно-розовый + Бокс чехол/1.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Клубнично-бронзовыйРумяно-розовый + Бокс чехол/2.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Клубнично-бронзовыйРумяно-розовый + Бокс чехол/3.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Клубнично-бронзовыйРумяно-розовый + Бокс чехол/4.webp"
+      ]
+    },
+    {
+      "id": "11",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 (Vinca blue и Rosé)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 59490,
+      "oldPrice": 69990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 90,
+      "isNew": true,
+      "rating": 4.7,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (Vinca blue и Rosé) с 5 насадками, эксклюзивным чехлом-боксом и расческами/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (Vinca blue и Rosé) с 5 насадками, эксклюзивным чехлом-боксом и расческами/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (Vinca blue и Rosé) с 5 насадками, эксклюзивным чехлом-боксом и расческами/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (Vinca blue и Rosé) с 5 насадками, эксклюзивным чехлом-боксом и расческами/4.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (Vinca blue и Rosé) с 5 насадками, эксклюзивным чехлом-боксом и расческами/5.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (Vinca blue и Rosé) с 5 насадками, эксклюзивным чехлом-боксом и расческами/6.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (Vinca blue и Rosé) с 5 насадками, эксклюзивным чехлом-боксом и расческами/7.webp"
+      ]
+    },
+    {
+      "id": "12",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Airstrait HT01 Яшмовая слива",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 50990,
+      "oldPrice": 59990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 89,
+      "isNew": false,
+      "rating": 4.2,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Яшмовая слива + Бокс чехол/1.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Яшмовая слива + Бокс чехол/2.webp",
+        "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Яшмовая слива + Бокс чехол/3.webp"
+      ]
+    },
+    {
+      "id": "13",
+      "category": "hair-dryers",
+      "title": "Фен Dyson HD16 Supersonic Nural VelvetRed Gold",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 59490,
+      "oldPrice": 69990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 88,
+      "isNew": true,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural VelvetRed Gold + чехол/1.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural VelvetRed Gold + чехол/2.webp",
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural VelvetRed Gold + чехол/3.webp"
+      ]
+    },
+    {
+      "id": "14",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Corrale (Vinca blue и Rosé)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 50990,
+      "oldPrice": 59990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 87,
+      "isNew": true,
+      "rating": 4.8,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Corrale (Vinca blue и Rosé)/1.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (Vinca blue и Rosé)/2.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (Vinca blue и Rosé)/3.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (Vinca blue и Rosé)/4.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (Vinca blue и Rosé)/5.webp"
+      ]
+    },
+    {
+      "id": "15",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Corrale (красный)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 50990,
+      "oldPrice": 59990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 86,
+      "isNew": true,
+      "rating": 4.4,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Corrale (красный)/1.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (красный)/2.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (красный)/3.webp"
+      ]
+    },
+    {
+      "id": "16",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap Complete Long HS05 (Ceramic Pop)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 61990,
+      "oldPrice": 72990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 85,
+      "isNew": false,
+      "rating": 4.6,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Ceramic Pop) с насадками и кейсом/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Ceramic Pop) с насадками и кейсом/2.webp",
+        "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Ceramic Pop) с насадками и кейсом/3.webp",
+        "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Ceramic Pop) с насадками и кейсом/4.webp",
+        "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Ceramic Pop) с насадками и кейсом/5.webp"
+      ]
+    },
+    {
+      "id": "17",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Corrale (фуксия)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 50990,
+      "oldPrice": 59990,
+      "discount": 15,
+      "isAvailable": true,
+      "popularity": 84,
+      "isNew": false,
+      "rating": 4.3,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Corrale (фуксия)/1.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (фуксия)/2.webp"
+      ]
+    },
+    {
+      "id": "18",
+      "category": "hair-dryers",
+      "title": "Фен Dyson HD16 Supersonic Nural Strawberry BronzeBlush Pink",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 83,
+      "isNew": false,
+      "rating": 4.6,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Strawberry BronzeBlush Pink + чехол/1.webp"
+      ]
+    },
+    {
+      "id": "19",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Corrale (медный)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 59990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": false,
+      "popularity": 82,
+      "isNew": true,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Corrale (медный)/1.webp"
+      ]
+    },
+    {
+      "id": "20",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic (черный серебристый) с 4 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 81,
+      "isNew": false,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic (черныйсеребристый) с 4 насадками/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic (черныйсеребристый) с 4 насадками/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic (черныйсеребристый) с 4 насадками/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic (черныйсеребристый) с 4 насадками/4.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic (черныйсеребристый) с 4 насадками/5.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic (черныйсеребристый) с 4 насадками/6.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic (черныйсеребристый) с 4 насадками/7.webp"
+      ]
+    },
+    {
+      "id": "21",
+      "category": "stylers",
+      "title": "Стайлер Dyson HS08 Airwrap Complete Long Vinca Blue Topaz Orange",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 80,
+      "isNew": true,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Vinca BlueTopaz Orange + бокс чехол/1.webp",
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Vinca BlueTopaz Orange + бокс чехол/2.webp"
+      ]
+    },
+    {
+      "id": "22",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap Complete Long HS05 (Topaz Orange) с кейсом",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 79,
+      "isNew": true,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Topaz Orange) с кейсом и дорожным чехлом/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Topaz Orange) с кейсом и дорожным чехлом/2.webp",
+        "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Topaz Orange) с кейсом и дорожным чехлом/3.webp"
+      ]
+    },
+    {
+      "id": "23",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 (белый) с 5 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": false,
+      "popularity": 78,
+      "isNew": false,
+      "rating": 4.2,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (белый) с 5 насадками/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (белый) с 5 насадками/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (белый) с 5 насадками/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (белый) с 5 насадками/4.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (белый) с 5 насадками/5.webp"
+      ]
+    },
+    {
+      "id": "24",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 (медный) с 5 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 77,
+      "isNew": false,
+      "rating": 4.5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (медный) с 5 насадками и черным дорожным чехлом/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (медный) с 5 насадками и черным дорожным чехлом/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (медный) с 5 насадками и черным дорожным чехлом/3.webp"
+      ]
+    },
+    {
+      "id": "25",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap HS01 Complete цвет берлинская лазурь",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 76,
+      "isNew": true,
+      "rating": 4.6,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap HS01 Complete с набором фирменных чехлов и расческами цвет берлинская лазурь/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS01 Complete с набором фирменных чехлов и расческами цвет берлинская лазурь/2.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS01 Complete с набором фирменных чехлов и расческами цвет берлинская лазурь/3.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS01 Complete с набором фирменных чехлов и расческами цвет берлинская лазурь/4.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS01 Complete с набором фирменных чехлов и расческами цвет берлинская лазурь/5.webp"
+      ]
+    },
+    {
+      "id": "26",
+      "category": "straighteners",
+      "title": "Выпрямитель Dyson Corrale (синий медный)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 59990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 75,
+      "isNew": false,
+      "rating": 4.6,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/straighteners/Выпрямитель Dyson Corrale (синиймедный)/1.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (синиймедный)/2.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (синиймедный)/3.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (синиймедный)/4.webp",
+        "/images/straighteners/Выпрямитель Dyson Corrale (синиймедный)/5.webp"
+      ]
+    },
+    {
+      "id": "27",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 (синий медный) с 5 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 74,
+      "isNew": true,
+      "rating": 4,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (синиймедный) с 5 насадками и черным дорожным чехлом/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (синиймедный) с 5 насадками и черным дорожным чехлом/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (синиймедный) с 5 насадками и черным дорожным чехлом/3.webp"
+      ]
+    },
+    {
+      "id": "28",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap HS01 с чехлом и насадками (красный)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 73,
+      "isNew": false,
+      "rating": 3.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap HS01 с чехлом и насадками (красный) для разных типов волос/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS01 с чехлом и насадками (красный) для разных типов волос/2.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS01 с чехлом и насадками (красный) для разных типов волос/3.webp"
+      ]
+    },
+    {
+      "id": "29",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 (фуксияяркий никель) с 5 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 72,
+      "isNew": false,
+      "rating": 2,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (фуксияяркий никель) с 5 насадками, черным дорожным чехлом и подставкой/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (фуксияяркий никель) с 5 насадками, черным дорожным чехлом и подставкой/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (фуксияяркий никель) с 5 насадками, черным дорожным чехлом и подставкой/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (фуксияяркий никель) с 5 насадками, черным дорожным чехлом и подставкой/4.webp"
+      ]
+    },
+    {
+      "id": "30",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap HS05 (насыщенная медь яркий никель)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 71,
+      "isNew": true,
+      "rating": 4.9,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (насыщенная медьяркий никель) Complete с чехлом/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (насыщенная медьяркий никель) Complete с чехлом/2.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (насыщенная медьяркий никель) Complete с чехлом/3.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (насыщенная медьяркий никель) Complete с чехлом/4.webp"
+      ]
+    },
+    {
+      "id": "31",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap HS05 (фуксияяркий никель) Complete Long с чехлом",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 70,
+      "isNew": false,
+      "rating": 3.6,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (фуксияяркий никель) Complete Long с чехлом/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (фуксияяркий никель) Complete Long с чехлом/2.webp"
+      ]
+    },
+    {
+      "id": "32",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 (черный серебристый) с 5 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 69,
+      "isNew": true,
+      "rating": 3.6,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (черныйсеребристый) с 5 насадками и черным дорожным чехлом/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (черныйсеребристый) с 5 насадками и черным дорожным чехлом/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (черныйсеребристый) с 5 насадками и черным дорожным чехлом/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 (черныйсеребристый) с 5 насадками и черным дорожным чехлом/4.webp"
+      ]
+    },
+    {
+      "id": "33",
+      "category": "stylers",
+      "title": "Стайлер Dyson HS08 Airwrap Complete Long Jasper Plum + бокс чехол",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": false,
+      "popularity": 68,
+      "isNew": false,
+      "rating": 5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Jasper Plum + бокс чехол/1.webp",
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Jasper Plum + бокс чехол/2.webp",
+        "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Jasper Plum + бокс чехол/3.webp"
+      ]
+    },
+    {
+      "id": "34",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap HS05 (яркий никель насыщенная медь)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 67,
+      "isNew": true,
+      "rating": 4.2,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (яркий никельнасыщенная медь) Complete Long с чехлом/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (яркий никельнасыщенная медь) Complete Long с чехлом/2.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (яркий никельнасыщенная медь) Complete Long с чехлом/3.webp",
+        "/images/stylers/Стайлер Dyson Airwrap HS05 (яркий никельнасыщенная медь) Complete Long с чехлом/4.webp"
+      ]
+    },
+    {
+      "id": "35",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 с 5 насадками и подставкой",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 66,
+      "isNew": false,
+      "rating": 5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 с 5 насадками и подставкой/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 с 5 насадками и подставкой/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 с 5 насадками и подставкой/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 с 5 насадками и подставкой/4.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 с 5 насадками и подставкой/5.webp"
+      ]
+    },
+    {
+      "id": "36",
+      "category": "stylers",
+      "title": "Стайлер Dyson Airwrap (пурпурный) для разных типов волос",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 65,
+      "isNew": false,
+      "rating": 5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/1.webp",
+        "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/2.webp",
+        "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/3.webp",
+        "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/4.webp",
+        "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/5.webp",
+        "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/6.webp",
+        "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/7.webp",
+        "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/8.webp"
+      ]
+    },
+    {
+      "id": "37",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 синий медный с 5 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 64,
+      "isNew": false,
+      "rating": 5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческами/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческами/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческами/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческами/4.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческами/5.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческами/6.webp"
+      ]
+    },
+    {
+      "id": "38",
+      "category": "stylers",
+      "title": "Стайлер для волос Dyson Airwrap HS01 8-ю насадками (медный)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 72990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 63,
+      "isNew": false,
+      "rating": 5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/stylers/Стайлер для волос Dyson Airwrap HS01 8-ю насадками, дорожным чехлом с кейсом (медный)/1.webp",
+        "/images/stylers/Стайлер для волос Dyson Airwrap HS01 8-ю насадками, дорожным чехлом с кейсом (медный)/2.webp",
+        "/images/stylers/Стайлер для волос Dyson Airwrap HS01 8-ю насадками, дорожным чехлом с кейсом (медный)/3.webp",
+        "/images/stylers/Стайлер для волос Dyson Airwrap HS01 8-ю насадками, дорожным чехлом с кейсом (медный)/4.webp"
+      ]
+    },
+    {
+      "id": "39",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD07 фуксия с 5 насадками в дорожном чехле",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 64,
+      "isNew": false,
+      "rating": 2.4,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 фуксия с 5 насадками в дорожном чехле и подставкой/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 фуксия с 5 насадками в дорожном чехле и подставкой/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 фуксия с 5 насадками в дорожном чехле и подставкой/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 фуксия с 5 насадками в дорожном чехле и подставкой/4.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD07 фуксия с 5 насадками в дорожном чехле и подставкой/5.webp"
+      ]
+    },
+    {
+      "id": "40",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 63,
+      "isNew": true,
+      "rating": 5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками/4.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками/5.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками/6.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками/7.webp"
+      ]
+    },
+    {
+      "id": "41",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic HD15 (Topaz Orange) с боксом и 4 насадками",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 62,
+      "isNew": true,
+      "rating": 5,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Topaz Orange) с боксом и 4 насадками/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Topaz Orange) с боксом и 4 насадками/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Topaz Orange) с боксом и 4 насадками/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic HD15 (Topaz Orange) с боксом и 4 насадками/4.webp"
+      ]
+    },
+    {
+      "id": "42",
+      "category": "hair-dryers",
+      "title": "Фен Dyson Supersonic для волос (пурпурный)",
+      "description": "Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.",
+      "price": 69990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 61,
+      "isNew": false,
+      "rating": 4.7,
+      "equipment": [
+        { "id": "concentrator",
+          "title": "Концентратор", 
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
+          "image": "/images/equipment/equipment-1.webp" 
+        },
+        { "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки", 
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
+          "image": "/images/equipment/equipment-2.webp" 
+        },
+        { "id": "diffuser",
+          "title": "Диффузор", 
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
+          "image": "/images/equipment/equipment-3.webp" 
+        },
+        { "id": "flyaway-attachment",
+          "title": "Диффузор", 
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
+          "image": "/images/equipment/equipment-4.webp" 
+        }
+      ],
+      "characteristics": [
+        { "label": "Длина шнура", "value": "2,2 м" },
+        { "label": "Время беспроводной зарядки", "value": "30 минут" },
+        { "label": "Время для полного заряда", "value": "70 минут" },
+        { "label": "Напряжение", "value": "10.8-16.8 В" },
+        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
+        { "label": "Вес", "value": "1 кг" }
+      ],
+      "images": [
+        "/images/hair-dryers/Фен Dyson Supersonic для волос (пурпурный)/1.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic для волос (пурпурный)/2.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic для волос (пурпурный)/3.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic для волос (пурпурный)/4.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic для волос (пурпурный)/5.webp",
+        "/images/hair-dryers/Фен Dyson Supersonic для волос (пурпурный)/6.webp"
+      ]
+    },
+    {
+      "id": "43",
+      "category": "accessories",
+      "title": "Длинные цилиндрические насадки диаметром 20 мм (пурпурные)",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 2990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": false,
+      "popularity": 60,
+      "isNew": false,
+      "rating": 4.4,
+      "images": [
+        "/images/accessories/Длинные цилиндрические насадки диаметром 20 мм для стайлера Dyson Airwrap (пурпурные)/1.webp"
+      ]
+    },
+    {
+      "id": "44",
+      "category": "accessories",
+      "title": "Мягкий дорожный чехол для фена Dyson Supersonic HD07",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 1990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 59,
+      "isNew": false,
+      "rating": 4,
+      "images": [
+        "/images/accessories/Мягкий дорожный чехол для фена Dyson Supersonic HD07, HD08, HD15 и HD16 цвета фуксия/1.webp",
+        "/images/accessories/Мягкий дорожный чехол для фена Dyson Supersonic HD07, HD08, HD15 и HD16 цвета фуксия/2.webp"
+      ]
+    },
+    {
+      "id": "45",
+      "category": "accessories",
+      "title": "Набор расчесок Dyson цвет (фуксия)",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 58,
+      "isNew": false,
+      "rating": 3.8,
+      "images": [
+        "/images/accessories/Набор расчесок Dyson цвет (фуксия)/1.webp",
+        "/images/accessories/Набор расчесок Dyson цвет (фуксия)/2.webp"
+      ]
+    },
+    {
+      "id": "46",
+      "category": "accessories",
+      "title": "Набор расчесок и заколок Dyson цвета Фуксия",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 1990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 57,
+      "isNew": false,
+      "rating": 4.2,
+      "images": [
+        "/images/accessories/Набор расчесок и заколок Dyson цвета Фуксия/1.webp",
+        "/images/accessories/Набор расчесок и заколок Dyson цвета Фуксия/2.webp",
+        "/images/accessories/Набор расчесок и заколок Dyson цвета Фуксия/3.webp"
+      ]
+    },
+    {
+      "id": "47",
+      "category": "accessories",
+      "title": "Насадка для бережного высушивания волос (пурпурная)",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 1990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 56,
+      "isNew": false,
+      "rating": 4.1,
+      "images": [
+        "/images/accessories/Насадка для бережного высушивания волос для фена Dyson Supersonic (пурпурная)/1.webp"
+      ]
+    },
+    {
+      "id": "48",
+      "category": "accessories",
+      "title": "Насадка для бережного высушивания волос (серебристая)",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 1990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 55,
+      "isNew": false,
+      "rating": 4.4,
+      "images": [
+        "/images/accessories/Насадка для бережного высушивания волос для фена Dyson Supersonic (серебристая)/1.webp"
+      ]
+    },
+    {
+      "id": "49",
+      "category": "accessories",
+      "title": "Насадка-гребень с широкими зубьями (черная)",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 1990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 54,
+      "isNew": false,
+      "rating": 1.9,
+      "images": [
+        "/images/accessories/Насадка-гребень с широкими зубьями для фена Dyson Supersonic (черная)/1.webp"
+      ]
+    },
+    {
+      "id": "50",
+      "category": "accessories",
+      "title": "Настенное крепление для фена с прорезиненным покрытием",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 53,
+      "isNew": false,
+      "rating": 3.9,
+      "images": [
+        "/images/accessories/Настенное крепление для фена Dyson Supersonic с прорезиненным покрытием/1.webp"
+      ]
+    },
+    {
+      "id": "51",
+      "category": "accessories",
+      "title": "Подставка для фена Dyson (никельчерный)",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 52,
+      "isNew": false,
+      "rating": 4.1,
+      "images": [
+        "/images/accessories/Подставка для фена Dyson (никельчерный)/1.webp"
+      ]
+    },
+    {
+      "id": "52",
+      "category": "accessories",
+      "title": "Чехол из экокожи красный",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 4990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 51,
+      "isNew": false,
+      "rating": 3.9,
+      "images": [
+        "/images/accessories/Чехол из экокожи красный/1.webp"
+      ]
+    },
+    {
+      "id": "53",
+      "category": "accessories",
+      "title": "Чехол из экокожи розовый",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 4990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 50,
+      "isNew": false,
+      "rating": 3.9,
+      "images": [
+        "/images/accessories/Чехол из экокожи розовый/1.webp"
+      ]
+    },
+    {
+      "id": "54",
+      "category": "accessories",
+      "title": "Чехол из экокожи серебристый",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 4990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 49,
+      "isNew": false,
+      "rating": 4.1,
+      "images": [
+        "/images/accessories/Чехол из экокожи серебристый/1.webp"
+      ]
+    },
+    {
+      "id": "55",
+      "category": "accessories",
+      "title": "Чехол из экокожи серебристый",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 4990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 48,
+      "isNew": false,
+      "rating": 3.9,
+      "images": [
+        "/images/accessories/Чехол из экокожи серебристый/1.webp"
+      ]
+    },
+    {
+      "id": "56",
+      "category": "accessories",
+      "title": "Чехол из экокожи ультрамариновый",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 4990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 47,
+      "isNew": false,
+      "rating": 1.9,
+      "images": [
+        "/images/accessories/Чехол из экокожи ультрамариновый/1.webp"
+      ]
+    },
+    {
+      "id": "57",
+      "category": "accessories",
+      "title": "Чехол из экокожи черный",
+      "description": "Аксессуар, разработанный для удобного и практичного использования в повседневных условиях. Отличается продуманной конструкцией, аккуратным внешним видом и совместимостью с основным устройством. Подходит для расширения функциональности и повышения комфорта при эксплуатации.",
+      "price": 4990,
+      "oldPrice": 0,
+      "discount": 0,
+      "isAvailable": true,
+      "popularity": 46,
+      "isNew": false,
+      "rating": 2.9,
+      "images": [
+        "/images/accessories/Чехол из экокожи черный/1.webp"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": 1,
+      "author": "Ольга",
+      "date": "11/03/2026",
+      "dateTime": "2026-03-11",
+      "rating": 5,
+      "title": "Это лучший фен!",
+      "comment": "Пользуюсь около месяца, хочу поделиться впечатлениями. Во-первых, фен очень легкий, удобно лежит в руке, не скользит. Кнопка включения и выключения расположена удобно, а не где-то сбоку. Мощность у фена хорошая, волосы сушит быстро.",
+      "photos": [
+        "/images/reviews/image-review.webp",
+        "/images/reviews/image-review.webp",
+        "/images/reviews/image-review.webp"
+      ]
+    },
+    {
+      "id": "2",
+      "productId": 2,
+      "author": "Татьяна",
+      "date": "14/03/2026",
+      "dateTime": "2026-03-14",
+      "rating": 5,
+      "title": "Отличный фен",
+      "comment": "Фен очень понравился. Качественный, стильный: свою цену полностью оправдывает!"
+    },
+    {
+      "id": "3",
+      "productId": 3,
+      "author": "Виктор",
+      "date": "17/03/2026",
+      "dateTime": "2026-03-17",
+      "rating": 5,
+      "title": "Быстро пришел",
+      "comment": "Фен очень понравился. Качественный, стильный: свою цену полностью оправдывает!",
+      "photos": [
+        "/images/reviews/image-review.webp"
+      ]
+    },
+    {
+      "id": "4",
+      "productId": 1,
+      "author": "Анна",
+      "date": "21/03/2026",
+      "dateTime": "2026-03-21",
+      "rating": 5,
+      "title": "Хороший фен",
+      "comment": "В целом все нравится, сушит быстро, удобный и легкий."
+    },
+    {
+      "id": "5",
+      "productId": 2,
+      "author": "Мария",
+      "date": "31/03/2026",
+      "dateTime": "2026-03-31",
+      "rating": 5,
+      "title": "Очень довольна",
+      "comment": "Красивый, мощный и удобный фен. Пользоваться приятно."
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "title": "Есть ли безопасные выпрямители для волос",
+      "description": "Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.",
+      "date": "6 апреля 2026",
+      "dateTime": "2026-04-06",
+      "image": "/images/news/news-image.webp"
+    },
+    {
+      "id": "2",
+      "title": "Есть ли безопасные выпрямители для волос",
+      "description": "Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.",
+      "date": "6 апреля 2026",
+      "dateTime": "2026-04-06",
+      "image": "/images/news/news-image.webp"
+    },
+    {
+      "id": "3",
+      "title": "Есть ли безопасные выпрямители для волос",
+      "description": "Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.",
+      "date": "6 апреля 2026",
+      "dateTime": "2026-04-06",
+      "image": "/images/news/news-image.webp"
+    },
+    {
+      "id": "4",
+      "title": "Есть ли безопасные выпрямители для волос",
+      "description": "Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.",
+      "date": "6 апреля 2026",
+      "dateTime": "2026-04-06",
+      "image": "/images/news/news-image.webp"
+    },
+    {
+      "id": "5",
+      "title": "Есть ли безопасные выпрямители для волос",
+      "description": "Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.",
+      "date": "6 апреля 2026",
+      "dateTime": "2026-04-06",
+      "image": "/images/news/news-image.webp"
+    },
+    {
+      "id": "6",
+      "title": "Есть ли безопасные выпрямители для волос",
+      "description": "Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.",
+      "date": "6 апреля 2026",
+      "dateTime": "2026-04-06",
+      "image": "/images/news/news-image.webp"
+    }
+  ],
+  "contactRequests": [
+    {
+      "name": "Келеметов Артур",
+      "phone": "89267549145",
+      "id": "2V4qMp79Bdk"
+    }
+  ],
+  "subscribers": [
+    {
+      "email": "myemail1@mail.com",
+      "agreement": true,
+      "id": "_3peoBFhFb0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

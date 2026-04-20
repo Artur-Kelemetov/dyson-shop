@@ -1,0 +1,254 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.product-mini-card {
+  --image-width: #{rem(240)};
+
+  display: grid;
+  grid-template-columns: var(--image-width) minmax(0, 1fr);
+  column-gap: rem(36);
+  align-items: center;
+  padding: rem(24) rem(36);
+  background-color: var(--color-white);
+  border: rem(1) solid var(--color-gray-60);
+  border-radius: rem(20);
+
+  @include laptop {
+    @include fluid-property(--image-width, 240, 190, $laptop-design, $tablet-design);
+    @include fluid-property(column-gap, 36, 24, $laptop-design, $tablet-design);
+    @include fluid-property(padding-top, 24, 20, $laptop-design, $tablet-design);
+    @include fluid-property(padding-bottom, 24, 20, $laptop-design, $tablet-design);
+    @include fluid-property(padding-inline, 36, 24, $laptop-design, $tablet-design);
+    @include fluid-property(border-radius, 20, 16, $laptop-design, $tablet-design);
+  }
+
+  @include tablet {
+    @include fluid-property(--image-width, 190, 160, $tablet-design, $mobile-design);
+    @include fluid-property(padding, 20, 16, $tablet-design, $mobile-design);
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    @include fluid-property(row-gap, 20, 14, $mobile-design, $mobile-s-design);
+    @include fluid-property(padding, 16, 12, $mobile-design, $mobile-s-design);
+  }
+
+  @include mobile-s {
+    border-radius: rem(12);
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: contain;
+
+    @include mobile {
+      width: rem(220);
+      @include fluid-property(width, 220, 160, $mobile-design, $mobile-s-design);
+    }
+
+    @include mobile-s {
+      margin-inline: auto;
+    }
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    grid-template-areas: 
+                  "title title remove"
+                  "controls price remove";
+    align-items: center;
+    column-gap: rem(28);
+    row-gap: rem(50);
+    min-width: 0;
+
+    @include laptop {
+      @include fluid-property(column-gap, 28, 18, $laptop-design, $tablet-design);
+      @include fluid-property(row-gap, 50, 28, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas: 
+                        "title remove"
+                        "controls price";
+      @include fluid-property(row-gap, 28, 20, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+                      "title"
+                      "price"
+                      "controls"
+                      "remove";
+      @include fluid-property(row-gap, 20, 12, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__title {
+    grid-area: title;
+    margin: 0;
+    max-width: rem(700);
+    font-size: rem(30);
+    line-height: 1.2;
+
+    @include laptop {
+      @include fluid-text-range(30, 24, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(24, 20, $tablet-design, $mobile-design);
+      max-width: none;
+    }
+
+    @include mobile {
+      @include fluid-text-range(20, 16, $mobile-design, $mobile-s-design);
+    }
+
+    &-link {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  &__controls {
+    grid-area: controls;
+    justify-self: start;
+    display: inline-flex;
+    align-items: center;
+    column-gap: rem(18);
+    min-height: rem(58);
+    padding-inline: rem(16);
+    border: var(--border);
+
+    @include tablet {
+      @include fluid-property(min-height, 58, 48, $tablet-design, $mobile-design);
+      @include fluid-property(column-gap, 18, 12, $tablet-design, $mobile-design);
+      @include fluid-property(padding-inline, 16, 12, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(min-width, 132, 110, $mobile-design, $mobile-s-design);
+      @include fluid-property(min-height, 48, 40, $mobile-design, $mobile-s-design);
+      @include fluid-property(column-gap, 12, 10, $mobile-design, $mobile-s-design);
+      @include fluid-property(padding-inline, 12, 10, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__control-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: rem(28);
+    height: rem(28);
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    font-size: rem(24);
+    line-height: 1;
+    color: var(--color-dark-100);
+    cursor: pointer;
+
+    @include tablet {
+      @include fluid-property(width, 28, 22, $tablet-design, $mobile-design);
+      @include fluid-property(height, 28, 22, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(width, 22, 18, $mobile-design, $mobile-s-design);
+      @include fluid-property(height, 22, 18, $mobile-design, $mobile-s-design);
+    }
+
+    svg {
+      width: 100%;
+      max-width: rem(14);
+
+      @include tablet {
+        @include fluid-property(max-width, 14, 12, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        @include fluid-property(max-width, 12, 10, $mobile-design, $mobile-s-design);
+      }
+    }
+  }
+
+  &__quantity {
+    min-width: rem(24);
+    text-align: center;
+    font-size: rem(20);
+    font-family: var(--font-family-accent);
+    line-height: 1;
+
+    @include tablet {
+      min-width: rem(20);
+      @include fluid-text-range(20, 16, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      min-width: rem(18);
+      @include fluid-text-range(16, 14, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__price {
+    grid-area: price;
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    white-space: nowrap;
+    font-size: rem(32);
+    font-family: var(--font-family-accent);
+    line-height: 1.1;
+    transform: translateY(rem(5));
+
+    @include laptop {
+      @include fluid-text-range(32, 26, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(26, 22, $tablet-design, $mobile-design);
+      transform: translateY(rem(3));
+    }
+
+    @include mobile {
+      justify-self: start;
+      transform: none;
+      @include fluid-text-range(22, 20, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__remove {
+    grid-area: remove;
+    align-self: start;
+    padding: rem(5) rem(10);
+    background-color: var(--color-white);
+    font-size: rem(16);
+    font-weight: 300;
+    color: var(--color-dark-100);
+    border: 0;
+    cursor: pointer;
+
+    @include hover {
+      color: var(--color-pink);
+    }
+
+    @include tablet {
+      padding-inline: rem(6);
+      @include fluid-text-range(16, 14, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      padding: 0;
+      @include fluid-text-range(14, 12, $mobile-design, $mobile-s-design);
+    }
+  }
+}

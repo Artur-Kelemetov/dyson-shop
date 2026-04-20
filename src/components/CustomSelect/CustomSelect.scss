@@ -1,0 +1,137 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+  font-size: rem(18);
+  min-width: rem(273);
+
+  @include tablet {
+    @include fluid-text-range(18, 12, $tablet-design, $mobile-design);
+    @include fluid-property(min-width, 273, 191, $tablet-design, $mobile-design);
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: rem(40);
+    padding: rem(7) rem(25);
+    background-color: transparent;
+    border: rem(1) solid var(--color-pink);
+    border-radius: rem(3);
+    cursor: pointer;
+
+    @include tablet {
+      @include fluid-property(padding-inline, 25, 15.5, $tablet-design, $mobile-design);
+      @include fluid-property(min-height, 40, 30, $tablet-design, $mobile-design);
+    }
+
+    &-label {
+      line-height: 1.2;
+    }
+
+    &-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: rem(10);
+      height: rem(6);
+    }
+  }
+
+  &__icon-triangle {
+    display: block;
+    width: rem(10);
+    height: rem(6);
+    translate: 0 rem(1);
+    transition: transform var(--transition-duration) ease;
+  }
+
+  &__dropdown {
+    position: absolute;
+    top: calc(100% + #{rem(10)});
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: rem(1) solid var(--color-gray-10);
+    border-radius: rem(3);
+    background-color: var(--color-gray-20);
+    overflow: hidden;
+  }
+
+  &__option-item + &__option-item {
+    border-top: rem(1) solid var(--color-gray-10);
+
+    &:first-child {
+      border-top: none;
+    }
+  }
+
+  &__option {
+    display: flex;
+    align-items: center;
+    column-gap: rem(23);
+    width: 100%;
+    min-height: rem(40);
+    padding-block: rem(7);
+    padding-left: rem(25);
+    padding-right: rem(22.5);
+    background-color: var(--color-gray-20);
+    border: none;
+    text-align: left;
+
+    @include tablet {
+      justify-content: space-between;
+      @include fluid-property(min-height, 40, 30, $tablet-design, $mobile-design);
+      @include fluid-property(padding-left, 25, 14, $tablet-design, $mobile-design);
+      @include fluid-property(padding-right, 22.5, 14, $tablet-design, $mobile-design);
+    }
+
+    &:not(.is-selected) {
+      font-weight: 300;
+      
+      @include hover {
+        color: var(--color-pink);
+      }
+    }
+
+    &-label {
+      line-height: 1.2;
+      min-width: 0;
+    }
+
+    &-check {
+      display: block;
+      width: rem(14.5);
+      height: rem(9);
+    }
+  }
+
+  &__icon-check {
+    @include tablet {
+      @include fluid-property(width, 14, 12, $tablet-design, $mobile-design);
+    }
+  }
+
+  &.is-open {
+    .custom-select__button {
+      color: var(--color-pink);
+    }
+
+    .custom-select__icon-triangle {
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,546 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.product-hero {
+  padding-bottom: rem(150);
+
+  @include laptop {
+    @include fluid-property(padding-bottom, 150, 120, $laptop-design, $tablet-design);
+  }
+
+  @include tablet {
+    @include fluid-property(padding-bottom, 120, 70, $tablet-design, $mobile-design);
+  }
+
+  @include mobile {
+    @include fluid-property(padding-bottom, 70, 50, $mobile-design, $mobile-s-design);
+  }
+
+  @include mobile-xs {
+    padding-bottom: rem(46);
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__breadcrumbs {
+    @include mobile {
+      margin-block: rem(22)
+    }
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: rem(135);
+    padding-top: rem(60);
+
+    @include laptop {
+      flex-direction: column;
+      align-items: center;
+      row-gap: rem(50);
+      @include fluid-property(padding-top, 60, 40, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(padding-top, 40, 20, $tablet-design, $mobile-design);
+      @include fluid-property(row-gap, 50, 30, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      padding-top: 0;
+      row-gap: rem(0);
+    }
+
+    @include mobile-s {
+      margin-top: rem(20);
+    }
+  }
+
+  &__content {
+    width: 100%;
+    max-width: rem(555);
+    min-width: 0;
+
+    @include laptop {
+      max-width: none;
+      align-self: flex-start;
+    }
+
+    @include mobile {
+      max-width: none;
+    }
+  }
+
+  &__top {
+    position: relative;
+    margin-bottom: rem(49);
+
+    @include tablet {
+      @include fluid-property(margin-bottom, 49, 41, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(margin-bottom, 41, 27, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__favourite-icon {
+    flex-shrink: 0;
+  }
+
+  &__title {
+    margin-bottom: rem(40);
+    width: 100%;
+    font-family: var(--font-family-accent);
+    line-height: 1.1;
+    color: var(--color-dark-100);
+
+    @include laptop {
+      @include fluid-text-range(38, 34, $laptop-design, $tablet-design);
+      @include fluid-property(margin-bottom, 40, 30, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(34, 26, $tablet-design, $mobile-design);
+      @include fluid-property(margin-bottom, 30, 14, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(26, 17, $mobile-design, $mobile-s-design);
+      @include fluid-property(margin-bottom, 14, 12, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__description {
+    font-size: rem(18);
+    width: 100%;
+    font-weight: 300;
+
+    @include tablet {
+      @include fluid-text-range(18, 16, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(16, 13, $mobile-design, $mobile-s-design);
+    }
+
+    &-toggle {
+      font-size: rem(18);
+      line-height: 1.5;
+      text-decoration: underline;
+      text-underline-offset: rem(5);
+      border: none;
+      background-color: transparent;
+      color: var(--color-pink);
+      padding: 0;
+
+      @include tablet {
+        @include fluid-text-range(18, 16, $tablet-design, $mobile-design);
+      }
+      
+      @include mobile {
+        @include fluid-text-range(16, 13, $mobile-design, $mobile-s-design);
+      }
+    }
+  }
+
+  &__availability {
+    display: inline-flex;
+    align-items: center;
+    column-gap: rem(20);
+    margin-bottom: rem(24);
+    min-width: 0;
+    font-size: rem(18);
+    line-height: 1.3;
+    color: var(--color-green);
+
+    @include laptop {
+      @include fluid-property(margin-bottom, 24, 16, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(18, 16, $tablet-design, $mobile-design);
+      @include fluid-property(column-gap, 20, 16, $tablet-design, $mobile-design);
+      @include fluid-property(margin-bottom, 16, 8, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(16, 13, $mobile-design, $mobile-s-design);
+      @include fluid-property(column-gap, 16, 13, $mobile-design, $mobile-s-design);
+      margin-bottom: rem(8);
+    }
+
+    @include mobile-s {
+      margin-bottom: 0;
+    }
+
+    &.is-unavailable {
+      color: var(--color-red);
+    }
+
+    &-dot {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: rem(1);
+      @include square(rem(13));
+
+      @include tablet {
+        @include fluid-property(width, 13, 11, $tablet-design, $mobile-design);
+        @include fluid-property(height, 13, 11, $tablet-design, $mobile-design);
+      }
+
+      @include mobile-s {
+        width: rem(10);
+        height: rem(10);
+      }
+    }
+
+    &-icon {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__price-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: rem(30);
+    column-gap: rem(20);
+
+    @include laptop {
+      @include fluid-property(margin-bottom, 30, 28, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(margin-bottom, 28, 24, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      justify-content: space-between;
+      @include fluid-property(margin-bottom, 24, 18, $mobile-design, $mobile-s-design);
+    }
+
+    @include mobile-xs {
+      margin-bottom: rem(10);
+    }
+  }
+
+  &__pricing {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 0;
+    column-gap: rem(20);
+
+    @include laptop {
+      justify-content: flex-start;
+      column-gap: rem(120);
+    }
+
+    @include mobile {
+      justify-content: flex-start;
+      width: auto;
+      column-gap: rem(40);
+    }
+
+    @media (width <= rem(620)) {
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+
+  &__old-price {
+    font-size: rem(30);
+    line-height: 1.2;
+    font-family: var(--font-family-accent);
+    color: var(--color-gray-40);
+    text-decoration: line-through;
+
+    @include laptop {
+      order: 2;
+      @include fluid-text-range(30, 28, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(28, 24, $tablet-design, $mobile-design);
+    }
+    
+    @include mobile {
+      
+      @include fluid-text-range(24, 20, $mobile-design, $mobile-s-design);
+    }
+
+    @media (width <= rem(620)) {
+      order: unset;
+    }
+  }
+
+  &__price {
+    font-size: rem(50);
+    line-height: 1.2;
+    font-family: var(--font-family-accent);
+
+    @include laptop {
+      order: 1;
+      @include fluid-text-range(50, 42, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(42, 36, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(36, 32, $mobile-design, $mobile-s-design);
+    }
+
+    @media (width <= rem(620)) {
+      order: unset;
+    }
+  }
+
+  &__favourite {
+
+    &-button {
+      order: 3;
+      display: none;
+      width: rem(40);
+      height: rem(40);
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+
+      path {
+        stroke: currentColor;
+        fill: var(--color-white);
+      }
+
+      &.is-active {
+        color: var(--color-red);
+
+        path {
+          fill: currentColor;
+        }
+      }
+
+      @include mobile {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+      }
+
+      @media (width <= rem(620)) {
+        display: none;
+      }
+    }
+    
+    &-icon {
+      width: rem(33);
+      height: rem(30);
+    }
+  }
+
+  &__actions {
+    display: flex;
+    column-gap: rem(20);
+    align-items: stretch;
+
+    @media (width <= rem(620)) {
+      flex-direction: column;
+      row-gap: rem(10);
+      align-items: stretch;
+    }
+  }
+
+  &__counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    max-width: rem(210);
+    column-gap: rem(40);
+    height: rem(80);
+    padding-inline: rem(38);
+    border: var(--border);
+    border-radius: rem(3);
+
+    @include laptop {
+      // max-width: rem(350);
+    }
+
+    @include tablet {
+      @include fluid-property(height, 80, 70, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      max-width: rem(222);
+    }
+
+    @media (width <= rem(620)) {
+      width: 100%;
+      max-width: none;
+      column-gap: rem(80);
+    }
+
+    @include mobile-s {
+      font-size: rem(17);
+      height: rem(60);
+    }
+
+    &-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      background-color: transparent;
+      border: none;
+
+      &-minus {
+        width: rem(18);
+        height: rem(2);
+
+        @include mobile {
+          @include fluid-property(width, 18, 12, $mobile-design, $mobile-s-design);
+        }
+      }
+
+      &-plus {
+        width: rem(18);
+        height: rem(18);
+
+        @include mobile {
+          @include fluid-property(width, 18, 12, $mobile-design, $mobile-s-design);
+          @include fluid-property(width, 18, 12, $mobile-design, $mobile-s-design);
+        }
+      }
+    }
+
+    &-value {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: rem(30);
+      line-height: 1;
+
+      @include laptop {
+        @include fluid-text-range(30, 26, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-text-range(26, 24, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        @include fluid-text-range(24, 20, $mobile-design, $mobile-s-design);
+      }
+
+      @include mobile-xs {
+        font-size: rem(17);
+        height: rem(60);
+      }
+    }
+  }
+
+  &__cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    max-width: rem(320);
+    min-width: 0;
+    height: rem(80);
+    column-gap: rem(30);
+    white-space: nowrap;
+    font-size: rem(30);
+    color: var(--color-gray-50);
+    line-height: 1.4;
+    background-color: var(--color-dark-100);
+    border: var(--border);
+    border-radius: rem(3);
+    padding: rem(15.5) rem(54) rem(15.5) rem(64);
+
+    @include hover {
+      color: var(--color-pink)
+    }
+
+    @include laptop {
+      @include fluid-text-range(30, 26, $laptop-design, $tablet-design);
+      max-width: rem(387);
+    }
+
+    @include tablet {
+      @include fluid-text-range(26, 24, $tablet-design, $mobile-design);
+      @include fluid-property(height, 80, 70, $tablet-design, $mobile-design);
+    }
+    
+    @include mobile {
+      max-width: none;
+      @include fluid-text-range(24, 20, $mobile-design, $mobile-s-design);
+    }
+
+    @media (width <= rem(620)) {
+      width: 100%;
+    }
+
+    @include mobile-xs {
+      font-size: rem(17);
+      height: rem(60);
+    }
+
+    &-icon {
+      width: rem(32);
+      height: rem(32);
+      flex-shrink: 0;
+      margin-top: rem(1);
+
+      @include laptop {
+        margin-top: 0;
+      }
+
+      @include tablet {
+        @include fluid-property(width, 32, 28, $tablet-design, $mobile-design);
+        @include fluid-property(height, 32, 28, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        @include fluid-property(width, 28, 25, $mobile-design, $mobile-s-design);
+        @include fluid-property(height, 28, 25, $mobile-design, $mobile-s-design);
+      }
+    }
+  }
+
+  &__counter-button:disabled,
+  &__cart-button:disabled {
+    cursor: not-allowed;
+  }
+
+  &__counter.is-disabled,
+  &__cart-button.is-disabled {
+    opacity: 0.5;
+  }
+
+  &__counter.is-disabled {
+    @include laptop {
+      display: none;
+    }
+  }
+
+  &__cart-button.is-disabled {
+    @include laptop {
+      width: 100%;
+    }
+  }
+}

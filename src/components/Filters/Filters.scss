@@ -1,0 +1,370 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.filters {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: rem(10);
+    min-height: rem(40);
+    padding: rem(7) rem(25);
+    border: #{rem(1)} solid var(--color-pink);
+    border-radius: rem(100);
+    background-color: transparent;
+    color: var(--color-dark-100);
+    font-size: rem(18);
+    line-height: 1;
+    white-space: nowrap;
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      border-color: var(--color-pink);
+      color: var(--color-pink);
+    }
+
+    @include tablet {
+      @include fluid-text-range(18, 12, $tablet-design, $mobile-design);
+      @include fluid-property(padding-inline, 25, 15.5, $tablet-design, $mobile-design);
+      @include fluid-property(min-width, 160, 106, $tablet-design, $mobile-design);
+      @include fluid-property(min-height, 40, 31, $tablet-design, $mobile-design);
+      @include fluid-property(column-gap, 10, 8, $tablet-design, $mobile-design);
+    }
+
+    &-icon {
+      display: inline-flex;
+      flex-shrink: 0;
+      margin-top: rem(2);
+      width: rem(16);
+      height: rem(16);
+
+      @include tablet {
+        width: rem(12);
+        height: rem(10);
+      }
+    }
+
+    &-text {
+      white-space: nowrap;
+      line-height: 1.2;
+    }
+
+    &-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: rem(22);
+      height: rem(22);
+      padding-inline: rem(6);
+      border-radius: rem(100);
+      background-color: var(--color-pink-hover);
+      color: var(--color-white);
+      font-size: rem(12);
+      line-height: 1;
+
+      @include tablet {
+        @include fluid-text-range(12, 10, $tablet-design, $mobile-design);
+        @include fluid-property(width, 22, 14, $tablet-design, $mobile-design);
+        @include fluid-property(height, 22, 14, $tablet-design, $mobile-design);
+      }
+    }
+
+    &[aria-expanded='true'] {
+      border-color: var(--color-pink);
+      color: var(--color-pink)
+    }
+  }
+
+  &__dropdown {
+    position: absolute;
+    top: calc(100% + #{rem(12)});
+    left: 0;
+    z-index: 30;
+    width: min(rem(420), calc(100vw - #{rem(32)}));
+    padding: rem(24);
+    border: var(--border);
+    border-radius: rem(24);
+    border-color: var(--color-white);
+    background-color: var(--color-white);
+    box-shadow: 0 rem(20) rem(50) rgb(17 17 17 / 10%);
+
+    @include mobile {
+      width: min(rem(380), calc(100vw - #{rem(24)}));
+      border-radius: rem(20);
+      @include fluid-property(padding, 24, 20, $mobile-design, $mobile-s-design);
+    }
+
+    @include mobile-s {
+      width: calc(100vw - #{rem(40)});
+      padding: rem(18);
+      border-radius: rem(18);
+    }
+  }
+
+  &__header {
+    margin-bottom: rem(24);
+
+    @include mobile {
+      margin-bottom: rem(20);
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-size: rem(24);
+    font-weight: 500;
+    line-height: 1.2;
+
+    @include tablet {
+      @include fluid-text-range(24, 22, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-text-range(22, 20, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(24);
+
+    @include tablet {
+      @include fluid-property(row-gap, 24, 20, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__group {
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-width: 0;
+  }
+
+  &__group-title {
+    margin-bottom: rem(14);
+    padding: 0;
+    font-size: rem(18);
+    font-weight: 500;
+    line-height: 1.2;
+
+    @include tablet {
+      @include fluid-text-range(18, 17, $tablet-design, $mobile-design);
+      @include fluid-property(margin-bottom, 14, 12, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__option {
+    display: flex;
+    align-items: center;
+    column-gap: rem(10);
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-bottom: rem(12);
+    }
+  }
+
+  &__input {
+    margin: 0;
+    flex-shrink: 0;
+    inline-size: rem(18);
+    block-size: rem(18);
+    accent-color: var(--color-pink);
+    cursor: pointer;
+
+    @include tablet {
+      @include fluid-property(inline-size, 18, 17, $tablet-design, $mobile-design);
+      @include fluid-property(block-size, 18, 17, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__label {
+    font-size: rem(16);
+    line-height: 1.4;
+    color: var(--color-dark-100);
+
+    @include tablet {
+      @include fluid-text-range(16, 15, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(16);
+  }
+
+  &__price-values {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: rem(12);
+  }
+
+  &__price-value {
+    display: inline-flex;
+    align-items: center;
+    min-height: rem(40);
+    padding-inline: rem(14);
+    border: rem(1) solid var(--color-pink);
+    border-radius: rem(100);
+    background-color: var(--color-gray-50);
+    font-size: rem(15);
+    line-height: 1;
+    white-space: nowrap;
+
+    @include tablet {
+      @include fluid-text-range(15, 14, $tablet-design, $mobile-design);
+      @include fluid-property(min-height, 40, 38, $tablet-design, $mobile-design);
+      @include fluid-property(padding-inline, 14, 12, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__range {
+    position: relative;
+    height: rem(24);
+  }
+
+  &__range-track,
+  &__range-progress {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: rem(4);
+    border-radius: rem(100);
+    pointer-events: none;
+  }
+
+  &__range-track {
+    left: 0;
+    right: 0;
+    background-color: var(--color-gray-hero);
+  }
+
+  &__range-progress {
+    background-color: var(--color-pink);
+  }
+
+  &__range-input {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: transparent;
+    appearance: none;
+    pointer-events: none;
+
+    &::-webkit-slider-runnable-track {
+      height: rem(4);
+      background: transparent;
+    }
+
+    &::-moz-range-track {
+      height: rem(4);
+      background: transparent;
+    }
+
+    &::-webkit-slider-thumb {
+      appearance: none;
+      pointer-events: auto;
+      cursor: pointer;
+      inline-size: rem(18);
+      block-size: rem(18);
+      margin-top: rem(-7);
+      border: rem(2) solid var(--color-pink);
+      border-radius: 50%;
+      background-color: var(--color-white);
+      box-shadow: 0 0 0 rem(4) rgb(255 255 255 / 100%);
+      transition-duration: var(--transition-duration);
+
+      @include hover {
+        transform: scale(1.05);
+      }
+    }
+
+    &::-moz-range-thumb {
+      pointer-events: auto;
+      cursor: pointer;
+      inline-size: rem(18);
+      block-size: rem(18);
+      border: rem(2) solid var(--color-pink);
+      border-radius: 50%;
+      background-color: var(--color-white);
+      box-shadow: 0 0 0 rem(4) rgb(255 255 255 / 100%);
+      transition-duration: var(--transition-duration);
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: rem(12);
+    margin-top: rem(24);
+    padding-top: rem(20);
+    border-top: rem(1) solid var(--color-gray-30);
+
+    @include tablet {
+      @include fluid-property(margin-top, 24, 20, $tablet-design, $mobile-design);
+      @include fluid-property(padding-top, 20, 16, $tablet-design, $mobile-design);
+    }
+
+    @include mobile-s {
+      flex-direction: column;
+      align-items: stretch;
+      row-gap: rem(10);
+    }
+  }
+
+  &__reset,
+  &__apply {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: rem(48);
+    padding-inline: rem(20);
+    border-radius: rem(100);
+    font-size: rem(16);
+    line-height: 1;
+    white-space: nowrap;
+    transition-duration: var(--transition-duration);
+
+    @include tablet {
+      @include fluid-property(min-height, 48, 44, $tablet-design, $mobile-design);
+      @include fluid-text-range(16, 15, $tablet-design, $mobile-design);
+    }
+  }
+
+  &__reset {
+    border: var(--border);
+    background-color: transparent;
+    color: var(--color-dark-100);
+
+    @include hover {
+      border-color: var(--color-pink);
+      color: var(--color-pink);
+    }
+  }
+
+  &__apply {
+    border: rem(1) solid var(--color-pink);
+    background-color: var(--color-pink);
+    color: var(--color-white);
+
+    @include hover {
+      opacity: 0.9;
+    }
+  }
+}

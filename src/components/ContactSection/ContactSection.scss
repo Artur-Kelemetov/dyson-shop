@@ -1,0 +1,340 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.contact-section {
+  padding-top: rem(150);
+  padding-bottom: rem(114);
+  background-color: var(--color-gray-50);
+
+  @include fluid-property(padding-top, 150, 120, $desktop-design, $laptop-design);
+  @include fluid-property(padding-bottom, 114, 105, $desktop-design, $laptop-design);
+
+  @include laptop {
+    @include fluid-property(padding-top, 120, 90, $laptop-design, $tablet-design);
+    @include fluid-property(padding-bottom, 105, 80, $laptop-design, $tablet-design);
+  }
+
+  @include tablet {
+    @include fluid-property(padding-top, 90, 63, $tablet-design, $mobile-design);
+    @include fluid-property(padding-bottom, 80, 70, $tablet-design, $mobile-design);
+  }
+
+  @include mobile {
+    @include fluid-property(padding-top, 63, 40, $mobile-design, $mobile-s-design);
+    @include fluid-property(padding-bottom, 70, 46, $mobile-design, $mobile-s-design);
+  }
+
+  &__columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include fluid-property(column-gap, 135, 125, $desktop-design, $laptop-design);
+
+    @include laptop {
+      @include fluid-property(column-gap, 125, 90, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(column-gap, 90, 45, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(column-gap, 45, 20, $mobile-design, $mobile-s-design);
+    }
+
+    @media (width <= rem(650)) {
+      grid-template-columns: 1fr;
+      row-gap: rem(46);
+    }
+  }
+
+  &__column {
+    min-width: 0;
+  }
+
+  &__form {
+    height: 100%;
+  }
+
+  .contact-form,
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__title {
+      font-size: rem(42);
+      font-family: var(--font-family-accent);
+      line-height: 1.2;
+      margin-bottom: rem(50);
+
+      @include fluid-text-range(42, 34, $desktop-design, $laptop-design);
+      @include fluid-property(margin-bottom, 50, 40, $desktop-design, $laptop-design);
+
+      @include laptop {
+        @include fluid-text-range(34, 28, $laptop-design, $tablet-design);
+        @include fluid-property(margin-bottom, 40, 30, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-text-range(28, 20, $tablet-design, $mobile-design);
+        @include fluid-property(margin-bottom, 30, 20, $tablet-design, $mobile-design);
+      }
+    }
+
+    &__fields {
+      width: 100%;
+    }
+
+    &__field {
+      position: relative;
+      line-height: 1;
+
+      &:not(:last-child) {
+        margin-bottom: rem(30);
+
+        @include tablet {
+          @include fluid-property(margin-bottom, 30, 20, $tablet-design, $mobile-design);
+        }
+      }
+    }
+
+    &__input {
+      width: 100%;
+      min-height: rem(40);
+      padding: 0;
+      padding-bottom: rem(10);
+      border: none;
+      border-bottom: #{rem(1)} solid var(--color-gray-30);;
+      background-color: transparent;
+      font-size: rem(18);
+      line-height: 1;
+      color: var(--color-black);
+
+      &::placeholder {
+        color: var(--color-gray-40);
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &:focus-visible {
+        color: var(--color-black);
+      }
+
+      @include laptop {
+        @include fluid-text-range(18, 16, $laptop-design, $tablet-design);
+        @include fluid-property(min-height, 40, 30, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-text-range(16, 12, $tablet-design, $mobile-design);
+        @include fluid-property(min-height, 30, 16, $tablet-design, $mobile-design);
+        @include fluid-property(padding-bottom, 10, 7, $tablet-design, $mobile-design);
+      }
+
+      @media (width <= rem(650)) {
+        max-width: rem(370);
+      }
+
+      @include mobile-s {
+        padding-bottom: rem(6);
+      }
+    }
+
+    &__button {
+      color: var(--color-white);
+      line-height: 1.2;
+      max-height: rem(64);
+
+      @include fluid-property(margin-top, 70, 60, $desktop-design, $laptop-design);
+      @include fluid-property(padding-block, 15.5, 12, $desktop-design, $laptop-design);
+      @include fluid-property(min-height, 64, 58, $desktop-design, $laptop-design);
+
+      @include laptop {
+        @include fluid-text-range(24, 20, $laptop-design, $tablet-design);
+        @include fluid-property(margin-top, 60, 50, $laptop-design, $tablet-design);
+        @include fluid-property(min-height, 58, 50, $laptop-design, $tablet-design);
+        @include fluid-property(padding-block, 12, 8, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-text-range(20, 16, $tablet-design, $mobile-design);
+        @include fluid-property(margin-top, 50, 40, $tablet-design, $mobile-design);
+        @include fluid-property(min-height, 45, 36, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        padding-block: rem(7);
+
+        @include fluid-property(margin-top, 40, 36, $mobile-design, $mobile-s-design);
+      }
+
+      @include mobile-s {
+        font-size: rem(15);
+        padding-block: rem(8);
+      }
+    }
+
+    &__error {
+      display: inline-block;
+      margin-top: rem(8);
+      font-size: rem(13);
+      line-height: 1.3;
+      color: red;
+    }
+
+    &__message {
+      margin-top: rem(16);
+      font-size: rem(14);
+      line-height: 1.4;
+
+      &__success {
+        color: var(--color-green);
+      }
+
+      &__error {
+        color: var(--color-red);
+      }
+    }
+  }
+
+  .contact-form {
+    &__button {
+      min-width: rem(277);
+
+      @include fluid-property(min-width, 277, 260, $desktop-design, $laptop-design);
+
+      @include laptop {
+        @include fluid-property(min-width, 260, 220, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-property(min-width, 220, 180, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        @include fluid-property(min-width, 180, 170, $mobile-design, $mobile-s-design);
+      }
+    }
+  }
+
+  .subscribe-form {
+    &__button {
+      min-width: rem(244);
+
+      @include fluid-property(min-width, 244, 226, $desktop-design, $laptop-design);
+
+      @include laptop {
+        @include fluid-property(min-width, 226, 195, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-property(min-width, 195, 153, $tablet-design, $mobile-design);
+      }
+
+      @include mobile-s {
+        min-width: rem(170);
+      }
+    }
+
+    &__agreement {
+      margin-top: rem(35);
+
+      @include laptop {
+        @include fluid-property(margin-top, 35, 32, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-property(margin-top, 32, 21, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        @include fluid-property(margin-top, 21, 13, $mobile-design, $mobile-s-design);
+      }
+    }
+  }
+
+  .checkbox {
+    display: inline-flex;
+    align-items: center;
+    column-gap: rem(16);
+    cursor: pointer;
+
+    @include mobile {
+      column-gap: rem(10);
+    }
+
+    &__input {
+      @include hide;
+      position: absolute;
+    }
+
+    &__box {
+      position: relative;
+      flex-shrink: 0;
+      width: rem(30);
+      height: rem(30);
+      border: var(--border);
+      border-radius: rem(3);
+      background-color: transparent;
+
+      @include laptop {
+        @include fluid-property(width, 30, 26, $laptop-design, $tablet-design);
+        @include fluid-property(height, 30, 26, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-property(width, 26, 19, $tablet-design, $mobile-design);
+        @include fluid-property(height, 26, 19, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        width: rem(19);
+        height: rem(19);
+      }
+    }
+
+    &__label {
+      max-width: rem(513);
+      font-size: rem(16);
+      line-height: 1.2;
+      color: var(--color-black);
+
+      @include laptop {
+        @include fluid-text-range(16, 12, $laptop-design, $tablet-design);
+        @include fluid-property(max-width, 513, 390, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-text-range(12, 10, $tablet-design, $mobile-design);
+        @include fluid-property(max-width, 390, 255, $tablet-design, $mobile-design);
+      }
+    }
+
+    &__input:checked + .checkbox__box {
+      background-image: url("../../assets/icons/icon-checked-contact-section.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+
+      @include tablet {
+        background-size: rem(14) rem(9);
+      }
+
+      @include mobile {
+        background-size: rem(11) rem(7);
+      }
+    }
+
+    &__input:focus-visible + .checkbox__box {
+      outline: rem(1) dashed var(--color-dark);
+      outline-offset: rem(2);
+    }
+  }
+}
