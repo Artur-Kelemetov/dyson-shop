@@ -35,19 +35,22 @@ git clone https://github.com/Artur-Kelemetov/dyson-shop
 cd dyson-shop
 npm install
 
+## 📦 Установка и запуск
+
+```bash
+git clone https://github.com/Artur-Kelemetov/dyson-shop
+cd dyson-shop
+npm install
+
 # запуск frontend
 npm run dev
 
 # запуск локального API (json-server)
 npm run server
 
----
-
-## 🎯 О проекте
-
+🎯 О проекте
 Проект разработан как pet-project с упором на:
 построение архитектуры SPA-приложения
 работу с серверными данными
 управление состоянием
 адаптивную и масштабируемую верстку
----
