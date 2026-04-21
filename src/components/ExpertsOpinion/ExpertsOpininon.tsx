@@ -7,7 +7,7 @@ type ExpertsOpinionProps = {
 
 export const ExpertsOpinion = ({ imageSrc, imageAlt = 'Девушка с феном Dyson' }: ExpertsOpinionProps) => {
   return (
-    <section className="experts-opinion" aria-labelledby="experts-opinion-title">
+    <section className="experts-opinion" id="experts-opinion" aria-labelledby="experts-opinion-title">
       <div className="experts-opinion__body container">
         <div className="experts-opinion__content">
           <h2 className="experts-opinion__title h2" id="experts-opinion-title">

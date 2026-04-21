@@ -4,6 +4,7 @@ import { validateContactForm, validateSubscribeForm } from "../../utils/validati
 import { useSubmitContactForm } from "../../hooks/useSubmitContactForm"
 import { useSubmitSubscribeForm } from "../../hooks/useSubmitSubscribeForm"
 import { IMaskInput } from "react-imask"
+import { useTimedMessage } from "../../hooks/useTimedMessage"
 import "./ContactSection.scss"
 import "../ui/Button/Button.scss"
 
@@ -27,6 +28,13 @@ export const ContactSection = () => {
   const contactFormMutation = useSubmitContactForm()
   const subscribeFormMutation = useSubmitSubscribeForm()
 
+  const contactMessage = useTimedMessage({
+    onFinish: () => contactFormMutation.reset(),
+  })
+  const subscribeMessage = useTimedMessage({
+    onFinish: () => subscribeFormMutation.reset(),
+  })
+
   const handleContactInputChange = (event: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target
 
@@ -49,7 +57,7 @@ export const ContactSection = () => {
     const { name, value, type, checked } = event.target
 
     if (subscribeFormMutation.isSuccess || subscribeFormMutation.isError) {
-      contactFormMutation.reset()
+      subscribeFormMutation.reset()
     }
 
     setSubscribeFormValues((prev) => ({
@@ -79,8 +87,10 @@ export const ContactSection = () => {
 
       setContactFormValues(initialContactFormValues)
       setContactFormErrors({})
+      contactMessage.showMessage()
     } catch (error) {
       console.log(error);
+      contactMessage.showMessage()
     }
   }
 
@@ -100,14 +110,19 @@ export const ContactSection = () => {
 
       setSubscribeFormValues(initialSubscribeFormValues)
       setSubscribeFormErrors({})
+      subscribeMessage.showMessage()
     } catch (error) {
       console.log(error);
+      subscribeMessage.showMessage()
     }
   }
 
 
+
+
+
   return (
-    <section className="contact-section" aria-labelledby="contact-section-title">
+    <section className="contact-section" id="contact-section" aria-labelledby="contact-section-title">
       <div className="contact-section__body container">
         <h2 className="visually-hidden" id="contact-section-title">
           Связаться с нами и подписаться на новости
@@ -177,16 +192,23 @@ export const ContactSection = () => {
                 {contactFormMutation.isPending ? "Отправка..." : "Оставить заявку"}
               </button>
 
-              {contactFormMutation.isError && (
-                <p className="contact-form__message contact-form__message--error">
-                  {(contactFormMutation.error).message}
-                </p>
+              {contactFormMutation.isError && contactMessage.isVisible && (
+                <div className={`contact-form__message-wrap ${contactMessage.isHiding ? "is-hiding" : ""}`}>
+                  <span className="contact-form__message-icon"></span>
+                    <p className="contact-form__message contact-form__message--error">
+                    {(contactFormMutation.error).message}
+                  </p>
+                </div>
+                
               )}
 
-              {contactFormMutation.isSuccess && (
-                <p className="contact-form__message contact-form__message--success">
-                  Заявка успешно отправлена
-                </p>
+              {contactFormMutation.isSuccess && contactMessage.isVisible && (
+                <div className={`contact-form__message-wrap ${contactMessage.isHiding ? "is-hiding" : ""}`}>
+                  <span className="contact-form__message-icon"></span>
+                  <p className="contact-form__message contact-form__message--success">
+                    Заявка успешно отправлена
+                  </p>
+                </div>
               )}
             </form>
           </div>
@@ -250,16 +272,21 @@ export const ContactSection = () => {
                 </span>
               )}
 
-              {subscribeFormMutation.isError && (
-                <p className="subscribe-form__message subscribe-form__message--error">
-                  {(subscribeFormMutation.error).message}
-                </p>
+              {subscribeFormMutation.isError && subscribeMessage.isVisible && (
+                <div className={`subscribe-form__message-wrap ${subscribeMessage.isHiding ? "is-hiding" : ""}`}>
+                  <p className="subscribe-form__message subscribe-form__message--error">
+                    {(subscribeFormMutation.error).message}
+                  </p>
+                </div>
               )}
 
-              {subscribeFormMutation.isSuccess && (
-                <p className="subscribe-form__message subscribe-form__message--success">
-                  Вы успешно подписались на новости
-                </p>
+              {subscribeFormMutation.isSuccess && subscribeMessage.isVisible && (
+                <div className={`subscribe-form__message-wrap ${subscribeMessage.isHiding ? "is-hiding" : ""}`}>
+                  <span className="subscribe-form__message-icon"></span>
+                  <p className="subscribe-form__message subscribe-form__message--success">
+                    Вы успешно подписались на новости
+                  </p>
+                </div>
               )}
             </form>
           </div>

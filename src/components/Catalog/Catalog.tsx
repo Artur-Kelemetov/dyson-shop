@@ -52,7 +52,6 @@ export const Catalog = () => {
 
   const [currentPage, setCurrentPage] = useState(1)
 
-
   const minPriceLimit = products.length ? Math.min(...products.map((product) => product.price)) : 0
   const maxPriceLimit = products.length ? Math.max(...products.map((product) => product.price)) : 0
 
@@ -213,7 +212,6 @@ const sortedProducts = [...products].sort((a, b) => {
   const handlePrevPage = () => {
     shouldScrollRef.current = true
     setCurrentPage((prevPage) => Math.max(prevPage - 1, 1))
-
   }
 
   const handleNextPage = () => {
