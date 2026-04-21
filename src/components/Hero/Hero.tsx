@@ -21,7 +21,9 @@ const BREAKPOINTS = {
           <p className="hero__description">
             Идеальная укладка для всех типов волос вместе с Dyson
           </p>
-          <Button children="Подробнее" className="hero__button button button--accent"/>
+          <a className="hero__button button button--accent" href="#special-offers">
+            Подробнее
+          </a>
         </div>
 
         <picture className="hero__image">

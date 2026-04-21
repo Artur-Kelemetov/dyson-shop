@@ -32,7 +32,7 @@ export const News = () => {
   }
 
   return (
-    <section className="news">
+    <section className="news" id="news">
       <div className="news__body container">
         <h2 className="news__title">Новости</h2>
 
@@ -40,7 +40,7 @@ export const News = () => {
           {visibleNews.map(({ id, title, description, date, dateTime, image }) => (
             <li className="news__item" key={id}>
               <article className="news-card">
-                <a href="" className="news-card__image-link">
+                <a className="news-card__image-link" href="#faq">
                   <img className="news-card__image" src={image} alt={title} />
                 </a>
 
@@ -49,7 +49,7 @@ export const News = () => {
                 </time>
 
                 <h3 className="news-card__title">
-                  <a className="news-card__title-link" href="" >
+                  <a className="news-card__title-link" href="#faq" >
                     {title}
                   </a>
                 </h3>
@@ -60,7 +60,7 @@ export const News = () => {
                   </p>
                 </div>
 
-                <a className="news-card__more-link" href="">
+                <a className="news-card__more-link" href="#faq">
                   Читать далее
                 </a>
               </article>

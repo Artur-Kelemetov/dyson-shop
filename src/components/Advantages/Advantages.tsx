@@ -8,7 +8,7 @@ import iconAdvantages6 from "../../assets/icons/icon-advantages-6.svg"
 
 export const Advantages = () => {
   return (
-    <section className="advantages">
+    <section className="advantages" id="advantages">
       <div className="advantages__body container">
         <h2 className="advantages__title">Почему выбирают нас</h2>
 

@@ -1,9 +1,8 @@
-import { useState, useEffect, useRef } from "react"
+import { useState, useRef, useLayoutEffect } from "react"
 import { CustomSelect } from "../CustomSelect/CustomSelect"
 import { ProductCard } from "../ProductCard/ProductCard"
 import { useProducts } from "../../hooks/useProducts"
 import { Pagination } from "../Pagination/Pagination"
-
 import "./SpecialOffers.scss"
 
 const sortOptions = [
@@ -99,10 +98,12 @@ export const SpecialOffers = () => {
   const paginatedProducts = filteredProducts.slice(startIndex, endIndex)
 
   const handlePrevPage = () => {
+    shouldScrollRef.current = true
     setCurrentPage((prevPage) => Math.max(prevPage - 1, 1))
   }
 
   const handleNextPage = () => {
+    shouldScrollRef.current = true
     setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages))
   }
 
@@ -111,15 +112,20 @@ export const SpecialOffers = () => {
     setCurrentPage(1)
   }
 
-
   const productsRef = useRef<HTMLDivElement | null>(null)
+
+  const shouldScrollRef = useRef(false)
   
-  useEffect(() => {
+  useLayoutEffect(() => {
+    if (!shouldScrollRef.current) return
+
     productsRef.current?.scrollIntoView({
       behavior: "smooth",
       block: "start",
     })
-  }, [currentPage])
+
+  shouldScrollRef.current = false
+}, [currentPage])
 
 
 if (isLoading) {
@@ -143,7 +149,7 @@ if (isError) {
 }
 
   return (
-    <section className="special-offers">
+    <section className="special-offers" id="special-offers">
       <div className="special-offers__inner container">
         <header className="special-offers__header">
           <h2 className="special-offers__title">

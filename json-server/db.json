@@ -13,34 +13,56 @@
       "isNew": false,
       "rating": 4.8,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic Patina Topaz Orange/1.webp",
@@ -64,34 +86,56 @@
       "isNew": false,
       "rating": 4.3,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap HS05 Complete Long оттенка Vinca blue Rosé с кейсом и дорожным чехлом для длинных волос/1.webp",
@@ -114,34 +158,56 @@
       "isNew": true,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Ceramic PinkRose Gold + чехол/1.webp",
@@ -164,34 +230,56 @@
       "isNew": false,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Ceramic Pink/1.webp",
@@ -216,34 +304,56 @@
       "isNew": true,
       "rating": 4.8,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Strawberry BronzeBlush Pink + бокс чехол/1.webp",
@@ -265,34 +375,56 @@
       "isNew": true,
       "rating": 4.7,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Vinca Blue Topaz Orange + чехол/1.webp",
@@ -314,34 +446,56 @@
       "isNew": false,
       "rating": 4.5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Jasper Plum + чехол/1.webp",
@@ -361,34 +515,56 @@
       "isNew": true,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Airstrait HT01 берлинская лазурьнасыщенная медь/1.webp",
@@ -411,34 +587,56 @@
       "isNew": false,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Новый Стайлер Dyson Airwrap HS09 Co-anda2x для выпрямления и укладки волос Ceramic Pinkрозовый с чехлом для хранения/1.webp",
@@ -460,34 +658,56 @@
       "isNew": true,
       "rating": 5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Клубнично-бронзовыйРумяно-розовый + Бокс чехол/1.webp",
@@ -509,34 +729,56 @@
       "isNew": true,
       "rating": 4.7,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 (Vinca blue и Rosé) с 5 насадками, эксклюзивным чехлом-боксом и расческами/1.webp",
@@ -561,34 +803,56 @@
       "isNew": false,
       "rating": 4.2,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Airstrait HT01 Яшмовая слива + Бокс чехол/1.webp",
@@ -609,34 +873,56 @@
       "isNew": true,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural VelvetRed Gold + чехол/1.webp",
@@ -657,34 +943,56 @@
       "isNew": true,
       "rating": 4.8,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Corrale (Vinca blue и Rosé)/1.webp",
@@ -707,34 +1015,56 @@
       "isNew": true,
       "rating": 4.4,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Corrale (красный)/1.webp",
@@ -755,34 +1085,56 @@
       "isNew": false,
       "rating": 4.6,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Ceramic Pop) с насадками и кейсом/1.webp",
@@ -805,34 +1157,56 @@
       "isNew": false,
       "rating": 4.3,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Corrale (фуксия)/1.webp",
@@ -852,34 +1226,56 @@
       "isNew": false,
       "rating": 4.6,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson HD16 Supersonic Nural Strawberry BronzeBlush Pink + чехол/1.webp"
@@ -898,34 +1294,56 @@
       "isNew": true,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Corrale (медный)/1.webp"
@@ -944,34 +1362,56 @@
       "isNew": false,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic (черныйсеребристый) с 4 насадками/1.webp",
@@ -996,34 +1436,56 @@
       "isNew": true,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Vinca BlueTopaz Orange + бокс чехол/1.webp",
@@ -1043,34 +1505,56 @@
       "isNew": true,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap Complete Long HS05 (Topaz Orange) с кейсом и дорожным чехлом/1.webp",
@@ -1091,34 +1575,56 @@
       "isNew": false,
       "rating": 4.2,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 (белый) с 5 насадками/1.webp",
@@ -1141,34 +1647,56 @@
       "isNew": false,
       "rating": 4.5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 (медный) с 5 насадками и черным дорожным чехлом/1.webp",
@@ -1189,34 +1717,56 @@
       "isNew": true,
       "rating": 4.6,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap HS01 Complete с набором фирменных чехлов и расческами цвет берлинская лазурь/1.webp",
@@ -1239,34 +1789,56 @@
       "isNew": false,
       "rating": 4.6,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/straighteners/Выпрямитель Dyson Corrale (синиймедный)/1.webp",
@@ -1289,34 +1861,56 @@
       "isNew": true,
       "rating": 4,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 (синиймедный) с 5 насадками и черным дорожным чехлом/1.webp",
@@ -1337,34 +1931,56 @@
       "isNew": false,
       "rating": 3.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap HS01 с чехлом и насадками (красный) для разных типов волос/1.webp",
@@ -1385,34 +2001,56 @@
       "isNew": false,
       "rating": 2,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 (фуксияяркий никель) с 5 насадками, черным дорожным чехлом и подставкой/1.webp",
@@ -1434,34 +2072,56 @@
       "isNew": true,
       "rating": 4.9,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap HS05 (насыщенная медьяркий никель) Complete с чехлом/1.webp",
@@ -1483,34 +2143,56 @@
       "isNew": false,
       "rating": 3.6,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap HS05 (фуксияяркий никель) Complete Long с чехлом/1.webp",
@@ -1530,34 +2212,56 @@
       "isNew": true,
       "rating": 3.6,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 (черныйсеребристый) с 5 насадками и черным дорожным чехлом/1.webp",
@@ -1579,34 +2283,56 @@
       "isNew": false,
       "rating": 5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson HS08 Airwrap Complete Long Jasper Plum + бокс чехол/1.webp",
@@ -1627,34 +2353,56 @@
       "isNew": true,
       "rating": 4.2,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap HS05 (яркий никельнасыщенная медь) Complete Long с чехлом/1.webp",
@@ -1676,34 +2424,56 @@
       "isNew": false,
       "rating": 5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 с 5 насадками и подставкой/1.webp",
@@ -1726,34 +2496,56 @@
       "isNew": false,
       "rating": 5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер Dyson Airwrap (пурпурный) для разных типов волос/1.webp",
@@ -1779,34 +2571,56 @@
       "isNew": false,
       "rating": 5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческами/1.webp",
@@ -1830,34 +2644,56 @@
       "isNew": false,
       "rating": 5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/stylers/Стайлер для волос Dyson Airwrap HS01 8-ю насадками, дорожным чехлом с кейсом (медный)/1.webp",
@@ -1879,34 +2715,56 @@
       "isNew": false,
       "rating": 2.4,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD07 фуксия с 5 насадками в дорожном чехле и подставкой/1.webp",
@@ -1929,34 +2787,56 @@
       "isNew": true,
       "rating": 5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD15 (Ceramic Pop) с боксом и 4 насадками/1.webp",
@@ -1981,34 +2861,56 @@
       "isNew": true,
       "rating": 5,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic HD15 (Topaz Orange) с боксом и 4 насадками/1.webp",
@@ -2030,34 +2932,56 @@
       "isNew": false,
       "rating": 4.7,
       "equipment": [
-        { "id": "concentrator",
-          "title": "Концентратор", 
-          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.", 
-          "image": "/images/equipment/equipment-1.webp" 
+        {
+          "id": "concentrator",
+          "title": "Концентратор",
+          "text": "Формирует направленный поток воздуха для точной укладки и быстрой сушки отдельных прядей.",
+          "image": "/images/equipment/equipment-1.webp"
         },
-        { "id": "gentle-air-attachment",
-          "title": "Насадка для бережной сушки", 
-          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.", 
-          "image": "/images/equipment/equipment-2.webp" 
+        {
+          "id": "gentle-air-attachment",
+          "title": "Насадка для бережной сушки",
+          "text": "Мягко распределяет поток воздуха и помогает быстро высушить волосы без перегрева.",
+          "image": "/images/equipment/equipment-2.webp"
         },
-        { "id": "diffuser",
-          "title": "Диффузор", 
-          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.", 
-          "image": "/images/equipment/equipment-3.webp" 
+        {
+          "id": "diffuser",
+          "title": "Диффузор",
+          "text": "Равномерно рассеивает воздух, помогает сохранить естественные локоны и уменьшить пушистость.",
+          "image": "/images/equipment/equipment-3.webp"
         },
-        { "id": "flyaway-attachment",
-          "title": "Диффузор", 
-          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.", 
-          "image": "/images/equipment/equipment-4.webp" 
+        {
+          "id": "flyaway-attachment",
+          "title": "Диффузор",
+          "text": "Помогает пригладить выбивающиеся волоски и сделать укладку более гладкой.",
+          "image": "/images/equipment/equipment-4.webp"
         }
       ],
       "characteristics": [
-        { "label": "Длина шнура", "value": "2,2 м" },
-        { "label": "Время беспроводной зарядки", "value": "30 минут" },
-        { "label": "Время для полного заряда", "value": "70 минут" },
-        { "label": "Напряжение", "value": "10.8-16.8 В" },
-        { "label": "Время для зарядки на 90 %", "value": "40 минут" },
-        { "label": "Вес", "value": "1 кг" }
+        {
+          "label": "Длина шнура",
+          "value": "2,2 м"
+        },
+        {
+          "label": "Время беспроводной зарядки",
+          "value": "30 минут"
+        },
+        {
+          "label": "Время для полного заряда",
+          "value": "70 минут"
+        },
+        {
+          "label": "Напряжение",
+          "value": "10.8-16.8 В"
+        },
+        {
+          "label": "Время для зарядки на 90 %",
+          "value": "40 минут"
+        },
+        {
+          "label": "Вес",
+          "value": "1 кг"
+        }
       ],
       "images": [
         "/images/hair-dryers/Фен Dyson Supersonic для волос (пурпурный)/1.webp",
@@ -2424,18 +3348,8 @@
     }
   ],
   "contactRequests": [
-    {
-      "name": "Келеметов Артур",
-      "phone": "89267549145",
-      "id": "2V4qMp79Bdk"
-    }
   ],
   "subscribers": [
-    {
-      "email": "myemail1@mail.com",
-      "agreement": true,
-      "id": "_3peoBFhFb0"
-    }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }

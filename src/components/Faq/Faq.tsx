@@ -50,7 +50,7 @@ export const Faq = () => {
   }
 
   return (
-    <section className="faq">
+    <section className="faq" id="faq">
       <div className="faq__body container">
         <h2 className="faq__title">
           <span className="faq__title-prefix">FAQ — </span>

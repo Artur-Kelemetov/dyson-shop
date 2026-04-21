@@ -36,27 +36,27 @@ export const Header = () => {
           <nav className="header__menu">
             <ul className="header__menu-list">
               <li className="header__menu-item">
-                <a href="" className="header__menu-link" onClick={closeMenu}>
+                <a href="#experts-opinion" className="header__menu-link" onClick={closeMenu}>
                   О нас
                 </a>
               </li>
               <li className="header__menu-item">
-                <a href="" className="header__menu-link" onClick={closeMenu}>
+                <a href="#special-offers" className="header__menu-link" onClick={closeMenu}>
                   Доставка и оплата
                 </a>
               </li>
               <li className="header__menu-item">
-                <a href="" className="header__menu-link" onClick={closeMenu}>
+                <a href="#special-offers" className="header__menu-link" onClick={closeMenu}>
                   Регистрация продукта
                 </a>
               </li>
               <li className="header__menu-item--laptop-compact-hidden">
-                <a href="" className="header__menu-link" onClick={closeMenu}>
+                <a href="#special-offers" className="header__menu-link" onClick={closeMenu}>
                   Сервис
                 </a>
               </li>
               <li className="header__menu-item--laptop-hidden">
-                <a href="" className="header__menu-link" onClick={closeMenu}>
+                <a href="#special-offers" className="header__menu-link" onClick={closeMenu}>
                   Сертификаты и лицензии
                 </a>
               </li>
@@ -94,14 +94,14 @@ export const Header = () => {
                   </Link>
                 </li>
                 <li className="header__overlay-item header__overlay-item--laptop-compact-only">
-                  <a href="" className="header__overlay-link" onClick={closeMenu}>
+                  <Link to="/catalog" className="header__overlay-link" onClick={closeMenu}>
                     Сервис
-                  </a>
+                  </Link>
                 </li>
                 <li className="header__overlay-item">
-                  <a href="" className="header__overlay-link" onClick={closeMenu}>
+                  <Link to="/catalog" className="header__overlay-link" onClick={closeMenu}>
                     Новинки
-                  </a>
+                  </Link>
                 </li>
                 <li className="header__overlay-item">
                   <Link to="/cart" className="header__overlay-link" onClick={closeMenu}>
@@ -114,9 +114,9 @@ export const Header = () => {
                   </Link>
                 </li>
                 <li className="header__overlay-item header__overlay-item--laptop-only">
-                  <a href="" className="header__overlay-link" onClick={closeMenu}>
+                  <Link to="/catalog" className="header__overlay-link" onClick={closeMenu}>
                     Сертификаты и лицензии
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </section>
@@ -125,29 +125,29 @@ export const Header = () => {
               <h2 className="header__overlay-title">Информация и сервис</h2>
               <ul className="header__overlay-list header__overlay-list">
                 <li className="header__overlay-item">
-                  <a href="" className="header__overlay-link" onClick={closeMenu}>
+                  <a href="#experts-opinion" className="header__overlay-link" onClick={closeMenu}>
                     О нас
                   </a>
                 </li>
                 <li className="header__overlay-item">
-                  <a href="" className="header__overlay-link" onClick={closeMenu}>
+                  <Link to="/catalog" className="header__overlay-link" onClick={closeMenu}>
                     Сервис
-                  </a>
+                  </Link>
                 </li>
                 <li className="header__overlay-item">
-                  <a href="" className="header__overlay-link" onClick={closeMenu}>
+                  <Link to="/catalog" className="header__overlay-link" onClick={closeMenu}>
                     Доставка и оплата
-                  </a>
+                  </Link>
                 </li>
                 <li className="header__overlay-item">
-                  <a href="" className="header__overlay-link" onClick={closeMenu}>
+                  <Link to="/catalog" className="header__overlay-link" onClick={closeMenu}>
                     Регистрация продукта
-                  </a>
+                  </Link>
                 </li>
                 <li className="header__overlay-item">
-                  <a href="" className="header__overlay-link" onClick={closeMenu}>
+                  <Link to="/catalog" className="header__overlay-link" onClick={closeMenu}>
                     Сертификаты и лицензии
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </section>
