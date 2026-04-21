@@ -8,7 +8,7 @@ export type CartItem = {
   quantity: number
 }
 
-type CartState = {
+export type CartState = {
   items: CartItem[]
 }
 

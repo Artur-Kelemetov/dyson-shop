@@ -7,7 +7,7 @@ export type FavouriteItem = {
   images: string[]
 }
 
-type FavouritesState = {
+export type FavouritesState = {
   items: FavouriteItem[]
 }
 
