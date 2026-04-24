@@ -9,7 +9,7 @@ export type SubscribeFormPayload = {
 }
 
 export const submitContactForm = async (payload: ContactFormPayload): Promise<ContactFormPayload> => {
-  const response = await fetch("http://localhost:8080/contactRequests", {
+  const response = await fetch("/contactRequests", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -25,7 +25,7 @@ export const submitContactForm = async (payload: ContactFormPayload): Promise<Co
 }
 
 export const submitSubscribeForm = async (payload: SubscribeFormPayload): Promise<SubscribeFormPayload> => {
-  const response = await fetch("http://localhost:8080/subscribers", {
+  const response = await fetch("/subscribers", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

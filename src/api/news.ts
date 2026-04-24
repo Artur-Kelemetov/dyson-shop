@@ -1,7 +1,7 @@
 import type { NewsItem } from "../types/news"
 
 export const getNews = async (): Promise<NewsItem[]> => {
-  const response = await fetch("http://localhost:8080/news")
+  const response = await fetch("/news")
 
   if (!response.ok) {
     throw new Error("Не удалось загрузить новости")
