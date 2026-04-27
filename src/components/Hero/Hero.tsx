@@ -1,4 +1,3 @@
-import { Button } from "../ui/Button/Button"
 import "./Hero.scss"
 import heroImageDesktop from "../../assets/images/hero-image-desktop.png"
 import heroImageMobile from "../../assets/images/hero-image-mobile.png";

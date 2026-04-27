@@ -1,7 +1,7 @@
 import type { Review } from "../types/review";
 
 export const getReviews = async (): Promise<Review[]> => {
-  const response = await fetch("http://localhost:8080/reviews")
+  const response = await fetch("/reviews")
 
   if(!response.ok) {
     throw new Error("Не удалось загрузить отзывы")
@@ -11,7 +11,7 @@ export const getReviews = async (): Promise<Review[]> => {
 }
 
 export const getReviewsByProductId = async (productId: number): Promise<Review[]> => {
-  const response = await fetch(`http://localhost:8080/reviews?productId=${productId}`)
+  const response = await fetch(`/reviews?productId=${productId}`)
 
   if(!response.ok) {
     throw new Error("Не удалось загрузить отзывы")
@@ -31,7 +31,7 @@ export type CreateReviewPayload = {
 }
 
 export const createReview = async (review: CreateReviewPayload): Promise<Review> => {
-  const response = await fetch("http://localhost:8080/reviews", {
+  const response = await fetch("/reviews", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
