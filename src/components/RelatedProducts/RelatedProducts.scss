@@ -1,0 +1,143 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.related-products {
+  background-color: var(--color-gray-70);
+
+  @include fluid-property(padding-block, 150, 120, $desktop-design, $laptop-design);
+
+  @include laptop {
+    @include fluid-property(padding-top, 120, 80, $laptop-design, $tablet-design);
+    @include fluid-property(padding-bottom, 120, 90, $laptop-design, $tablet-design);
+  }
+
+  @include tablet {
+    @include fluid-property(padding-top, 80, 60, $tablet-design, $mobile-design);
+    @include fluid-property(padding-bottom, 90, 76, $tablet-design, $mobile-design);
+  }
+
+  @include mobile {
+    @include fluid-property(padding-top, 60, 46, $mobile-design, $mobile-s-design);
+    @include fluid-property(padding-bottom, 76, 46, $mobile-design, $mobile-s-design);
+  }
+  
+  &__title {
+
+    @include fluid-text-range(42, 36, $desktop-design, $laptop-design);
+    @include fluid-property(margin-bottom, 59, 50, $desktop-design, $laptop-design);
+
+    @include laptop {
+      @include fluid-text-range(36, 32, $laptop-design, $tablet-design);
+      @include fluid-property(margin-bottom, 50, 46, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(32, 26, $tablet-design, $mobile-design);
+      @include fluid-property(margin-bottom, 46, 40, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      line-height: 1.2;
+      @include fluid-text-range(26, 20, $mobile-design, $mobile-s-design);
+      @include fluid-property(margin-bottom, 40, 38, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__slider {
+    --button-size: #{rem(44)};
+
+    @include laptop {
+      @include fluid-property(--button-size, 44, 36, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(--button-size, 36, 26, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(--button-size, 36, 20, $mobile-design, $mobile-s-design);
+    }
+
+    display: grid;
+    grid-template-columns: var(--button-size) minmax(0, 1fr) var(--button-size);
+    align-items: center;
+    column-gap: rem(16);
+  }
+
+  &__viewport {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  &__button {
+    max-width: rem(44);
+    max-height: rem(44);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: transparent;
+    border: none;
+    color: var(--color-gray-40);
+
+    &-icon {
+      width: rem(30);
+      height: rem(30);
+
+      @include laptop {
+        @include fluid-property(width, 30, 26, $laptop-design, $tablet-design);
+        @include fluid-property(height, 30, 26, $laptop-design, $tablet-design);
+      }
+
+      @include tablet {
+        @include fluid-property(width, 26, 20, $tablet-design, $mobile-design);
+        @include fluid-property(height, 26, 20, $tablet-design, $mobile-design);
+      }
+
+      @include mobile {
+        @include fluid-property(width, 24, 18, $mobile-design, $mobile-s-design);
+        @include fluid-property(height, 24, 18, $mobile-design, $mobile-s-design);
+      }
+    }
+
+    &.disabled {
+      @include hide;
+    }
+  }
+
+  &__list {
+    --gap: #{rem(20)};
+    --visible-cards-count: 3;
+    --slide-step: calc((100% - (var(--visible-cards-count) - 1) * var(--gap)) / var(--visible-cards-count) + var(--gap));
+
+    @include mobile {
+      @include fluid-property(--gap, 20, 10, $mobile-design, $mobile-s-design);
+    }
+
+    display: flex;
+    column-gap: var(--gap);
+    align-items: flex-start;
+    transition: transform var(--transition-duration);
+
+    @include mobile {
+      --visible-cards-count: 2;
+    }
+  }
+
+  &__item {
+    flex-basis: calc((100% - (var(--visible-cards-count) - 1) * var(--gap)) / var(--visible-cards-count));
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background-color: var(--color-white);
+  }
+}

@@ -1,0 +1,96 @@
+@use '../../styles/helpers/' as *;
+
+$desktop-design: 1920;
+$laptop-design: 1440;
+$tablet-design: 1024;
+$mobile-design: 768;
+$mobile-s-design: 480;
+
+.related-product-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: rem(420);
+  min-width: 0;
+
+  &__image-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: rem(20) rem(20) rem(5);
+
+    @include laptop {
+      @include fluid-property(padding-top, 20, 10, $laptop-design, $tablet-design);
+      @include fluid-property(padding-top, 20, 10, $laptop-design, $tablet-design);
+      @include fluid-property(padding-inline, 20, 10, $laptop-design, $tablet-design);
+    }
+
+    @include mobile {
+      padding: rem(20) rem(20) rem(0);
+      @include fluid-property(padding-top, 20, 10, $mobile-design, $mobile-s-design);
+      @include fluid-property(padding-inline, 20, 10, $mobile-design, $mobile-s-design);
+    }
+
+    @include mobile-s {
+      padding: rem(10) rem(10) rem(0);
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  &__content {
+    padding-top: rem(10);
+    padding-inline: rem(30);
+    padding-bottom: rem(20);
+
+    @include laptop {
+      @include fluid-property(padding-inline, 30, 20, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-property(padding-inline, 20, 12, $tablet-design, $mobile-design);
+      @include fluid-property(padding-bottom, 20, 16, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      @include fluid-property(padding-block, 20, 10, $mobile-design, $mobile-s-design);
+      @include fluid-property(padding-inline, 12, 8, $mobile-design, $mobile-s-design);
+    }
+  }
+
+  &__title {
+    min-height: rem(100);
+    font-family: var(--font-family-base);
+    font-weight: 300;
+    font-size: rem(24);
+    margin-top: rem(40);
+    align-self: flex-start;
+    margin: 0;
+    line-height: 1.2;
+
+    @include fluid-text-range(24, 22, $desktop-design, $laptop-design);
+    @include fluid-property(min-height, 100, 80, $desktop-design, $laptop-design);
+
+    @include laptop {
+      @include fluid-text-range(22, 15, $laptop-design, $tablet-design);
+      @include fluid-property(min-height, 80, 55, $laptop-design, $tablet-design);
+    }
+
+    @include tablet {
+      @include fluid-text-range(15, 12, $tablet-design, $mobile-design);
+      @include fluid-property(min-height, 55, 44, $tablet-design, $mobile-design);
+    }
+
+    @include mobile {
+      min-height: rem(48);
+      @include fluid-text-range(16, 10, $mobile-design, $mobile-s-design);
+      @include fluid-property(min-height, 48, 36, $mobile-design, $mobile-s-design);
+
+    }
+  }
+}
