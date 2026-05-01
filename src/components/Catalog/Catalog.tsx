@@ -1,4 +1,5 @@
 import { useState, useEffect, useLayoutEffect, useRef } from "react"
+import { useSearchParams } from "react-router-dom"
 import { CustomSelect } from "../CustomSelect/CustomSelect"
 import { ProductCard } from "../ProductCard/ProductCard"
 import { useProducts } from "../../hooks/useProducts"
@@ -46,41 +47,44 @@ const PRODUCTS_PER_PAGE = 12
 export const Catalog = () => {
   const { data: products = [], isLoading, isError, error } = useProducts()
 
-  const [activeFilter, setActiveFilter] = useState<string | null>(null)
+  const [searchParams, setSearchParams] = useSearchParams()
 
-  const [sortValue, setSortValue] = useState("popular")
-
-  const [currentPage, setCurrentPage] = useState(1)
+  const activeFilter = searchParams.get("quickFilter")
+  const sortValue = searchParams.get("sort") ?? "popular"
+  const currentPage = Number(searchParams.get("page") ?? "1")
 
   const minPriceLimit = products.length ? Math.min(...products.map((product) => product.price)) : 0
   const maxPriceLimit = products.length ? Math.max(...products.map((product) => product.price)) : 0
 
   const [isFiltersOpen, setIsFiltersOpen] = useState(false)
 
-  const [filters, setFilters] = useState<FiltersState>({
-    categories: [],
-    priceFrom: minPriceLimit,
-    priceTo: maxPriceLimit,
-    isNew: false,
-    isAvailable: false,
-    hasDiscount: false
-  })
+  const filters: FiltersState = {
+    categories: searchParams.getAll("category"),
+    priceFrom: Number(searchParams.get("priceFrom") ?? minPriceLimit),
+    priceTo: Number(searchParams.get("priceTo") ?? maxPriceLimit),
+    isNew: searchParams.get("isNew") === "true",
+    isAvailable: searchParams.get("isAvailable") === "true",
+    hasDiscount: searchParams.get("hasDiscount") === "true",
+  }
 
-  useEffect(() => {
-    if(!products.length) return
+  const updateSearchParams = (updates: Record<string, string | string[] | null>) => {
+    const params = new URLSearchParams(searchParams)
 
-    setFilters((prev) => {
-      if (prev.priceFrom !== 0 || prev.priceTo !== 0) {
-        return prev
+    Object.entries(updates).forEach(([key, value]) => {
+      params.delete(key)
+
+      if (value === null) return
+
+      if (Array.isArray(value)) {
+        value.forEach((item) => params.append(key, item))
+        return
       }
 
-      return {
-      ...prev,
-      priceFrom: minPriceLimit,
-      priceTo: maxPriceLimit,
-    }
+      params.set(key, value)
     })
-  }, [products, minPriceLimit, maxPriceLimit])
+
+    setSearchParams(params)
+  }
 
   const handleToggleFilters = () => {
     setIsFiltersOpen((prev) => !prev)
@@ -91,52 +95,51 @@ export const Catalog = () => {
   }
 
   const handleCategoryChange = (value: string) => {
-    setFilters((prev) => ({
-      ...prev,
-      categories: prev.categories.includes(value) ? prev.categories.filter((category) => category !== value) : [...prev.categories, value]
-    }))
+    const nextCategories = filters.categories.includes(value) 
+    ? filters.categories.filter((category) => category !== value) 
+    : [...filters.categories, value]
 
-    setCurrentPage(1)
+    updateSearchParams({ 
+      category: nextCategories,
+      page: null, 
+    })
   }
 
   const handlePriceFromChange = (value: number) => {
-    setFilters((prev) => ({
-      ...prev,
-      priceFrom: Math.min(value, prev.priceTo)
-    }))
+    const nextPriceFrom = Math.min(value, filters.priceTo)
 
-    setCurrentPage(1)
+    updateSearchParams({ 
+      priceFrom: nextPriceFrom === minPriceLimit ? null : String(nextPriceFrom),
+      page: null, 
+    })
   }
 
   const handlePriceToChange = (value: number) => {
-    setFilters((prev) => ({
-      ...prev,
-      priceTo: Math.max(value, prev.priceFrom)
-    }))
+    const nextPriceTo = Math.max(value, filters.priceFrom)
 
-    setCurrentPage(1)
+    updateSearchParams({ 
+      priceTo: nextPriceTo === maxPriceLimit ? null : String(nextPriceTo),
+      page: null,
+    })
   }
 
   const handleCheckboxChange = (name: "isNew" | "isAvailable" | "hasDiscount") => {
-    setFilters((prev) => ({
-      ...prev,
-      [name]: !prev[name],
-    }))
-
-    setCurrentPage(1)
+    updateSearchParams({ 
+      [name]: filters[name] ? null : "true",
+      page: null, 
+    })
   }
 
   const handleResetFilters = () => {
-    setFilters({
-      categories: [],
-      priceFrom: minPriceLimit,
-      priceTo: maxPriceLimit,
-      isNew: false,
-      isAvailable: false,
-      hasDiscount: false
+    updateSearchParams({ 
+      category: null,
+      priceFrom: null,
+      priceTo: null,
+      isNew: null,
+      isAvailable: null,
+      hasDiscount: null,
+      page: null 
     })
-
-    setCurrentPage(1)
   }
 
 
@@ -197,8 +200,10 @@ const sortedProducts = [...products].sort((a, b) => {
   const isEmpty = filteredProducts.length === 0
 
   const handleFilterClick = (filterId: string) => {
-    setActiveFilter((prev) => prev === filterId ? null : filterId)
-    setCurrentPage(1)
+    updateSearchParams({ 
+      quickFilter: activeFilter === filterId ? null : filterId,
+      page: null
+    })
   }
 
 
@@ -211,17 +216,19 @@ const sortedProducts = [...products].sort((a, b) => {
 
   const handlePrevPage = () => {
     shouldScrollRef.current = true
-    setCurrentPage((prevPage) => Math.max(prevPage - 1, 1))
+    updateSearchParams({ page: String(Math.max(currentPage - 1, 1)) })
   }
 
   const handleNextPage = () => {
     shouldScrollRef.current = true
-    setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages))
+    updateSearchParams({ page: String(Math.min(currentPage + 1, totalPages)) })
   }
 
   const handleSortChange = (value: string) => {
-    setSortValue(value)
-    setCurrentPage(1)
+    updateSearchParams({
+      sort: value === "popular" ? null : value,
+      page: null
+    })
   }
 
   const catalogRef = useRef<HTMLElement | null>(null)
