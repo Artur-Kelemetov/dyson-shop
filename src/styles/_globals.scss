@@ -1,5 +1,22 @@
 @use 'helpers' as *;
 
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root > main {
+  flex-grow: 1;
+  background-color: var(--color-gray-70);
+}
+
 body {
   @include fluid-text(26, 12);
 
