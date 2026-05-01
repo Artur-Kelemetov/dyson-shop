@@ -1,4 +1,5 @@
-import { useState, useRef, useLayoutEffect } from "react"
+import { useRef, useLayoutEffect } from "react"
+import { useSearchParams } from "react-router-dom"
 import { CustomSelect } from "../CustomSelect/CustomSelect"
 import { ProductCard } from "../ProductCard/ProductCard"
 import { useProducts } from "../../hooks/useProducts"
@@ -40,12 +41,11 @@ const PRODUCTS_PER_PAGE = 6
 
 
 export const SpecialOffers = () => {
-  const [activeFilter, setActiveFilter] = useState<string | null>(null)
+  const [searchParams, setSearchParams] = useSearchParams()
 
-  const [sortValue, setSortValue] = useState("popular")
-
-  const [currentPage, setCurrentPage] = useState(1)
-
+  const activeFilter = searchParams.get("quickFilter")
+  const sortValue = searchParams.get("sort") ?? "popular"
+  const currentPage = Number(searchParams.get("page") ?? "1")
 
   const { data: products = [], isLoading, isError, error } = useProducts()
 
@@ -84,9 +84,25 @@ export const SpecialOffers = () => {
 
   const isEmpty = filteredProducts.length === 0
 
+  const updateSearchParams = (updates: Record<string, string | null>) => {
+    const params = new URLSearchParams(searchParams)
+
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value === null) {
+        params.delete(key)
+      } else {
+        params.set(key, value)
+      }
+    })
+
+    setSearchParams(params)
+  }
+
   const handleFilterClick = (filterId: string) => {
-    setActiveFilter((prev) => prev === filterId ? null : filterId)
-    setCurrentPage(1)
+    updateSearchParams({
+      quickFilter: activeFilter === filterId ? null : filterId,
+      page: null,
+    })
   }
 
 
@@ -99,17 +115,19 @@ export const SpecialOffers = () => {
 
   const handlePrevPage = () => {
     shouldScrollRef.current = true
-    setCurrentPage((prevPage) => Math.max(prevPage - 1, 1))
+    updateSearchParams({ page: String(Math.max(currentPage - 1, 1)) })
   }
 
   const handleNextPage = () => {
     shouldScrollRef.current = true
-    setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages))
+    updateSearchParams({ page: String(Math.min(currentPage + 1, totalPages)) })
   }
 
   const handleSortChange = (value: string) => {
-    setSortValue(value)
-    setCurrentPage(1)
+    updateSearchParams({
+      sort: value === "popular" ? null : value,
+      page: null
+    })
   }
 
   const productsRef = useRef<HTMLDivElement | null>(null)
