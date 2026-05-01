@@ -1,23 +1,12 @@
+import { apiClient } from "./apiClient";
 import type { Review } from "../types/review";
 
-export const getReviews = async (): Promise<Review[]> => {
-  const response = await fetch("/reviews")
-
-  if(!response.ok) {
-    throw new Error("Не удалось загрузить отзывы")
-  }
-
-  return response.json()
+export const getReviews = () => {
+  return apiClient<Review[]>('/reviews')
 }
 
-export const getReviewsByProductId = async (productId: number): Promise<Review[]> => {
-  const response = await fetch(`/reviews?productId=${productId}`)
-
-  if(!response.ok) {
-    throw new Error("Не удалось загрузить отзывы")
-  }
-
-  return response.json()
+export const getReviewsByProductId = (productId: number) => {
+  return apiClient<Review[]>(`/reviews?productId=${productId}`)
 }
 
 
@@ -30,19 +19,12 @@ export type CreateReviewPayload = {
   dateTime: string
 }
 
-export const createReview = async (review: CreateReviewPayload): Promise<Review> => {
-  const response = await fetch("/reviews", {
+export const createReview = (review: CreateReviewPayload) => {
+  return apiClient<Review>("/reviews", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(review)
   })
-
-  if (!response.ok) {
-    throw new Error("Не удалось отправить отзыв")
-  }
-
-  const createdReview: Review = await response.json() 
-  return createdReview
 }
