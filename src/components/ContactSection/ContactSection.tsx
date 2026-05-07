@@ -1,6 +1,11 @@
-import { useState, type ChangeEvent, } from "react"
-import type { ContactFormValues, SubscribeFormValues, ContactFormErrors, SubscribeFormErrors } from "../../utils/validation/contactSectionValidation"
-import { validateContactForm, validateSubscribeForm } from "../../utils/validation/contactSectionValidation"
+import { Controller, useForm } from "react-hook-form"
+import { zodResolver } from "@hookform/resolvers/zod"
+import { 
+  contactFormSchema, 
+  subscribeFormSchema, 
+  type ContactFormValues, 
+  type SubscribeFormValues 
+} from "../../utils/validation/contactSectionValidation"
 import { useSubmitContactForm } from "../../hooks/useSubmitContactForm"
 import { useSubmitSubscribeForm } from "../../hooks/useSubmitSubscribeForm"
 import { IMaskInput } from "react-imask"
@@ -19,107 +24,75 @@ const initialSubscribeFormValues: SubscribeFormValues = {
 }
 
 export const ContactSection = () => {
-  const [contactFormValues, setContactFormValues] = useState<ContactFormValues>(initialContactFormValues)
-  const [contactFormErrors, setContactFormErrors] = useState<ContactFormErrors>({})
-
-  const [subscribeFormValues, setSubscribeFormValues] = useState<SubscribeFormValues>(initialSubscribeFormValues)
-  const [subscribeFormErrors, setSubscribeFormErrors] = useState<SubscribeFormErrors>({})
-
   const contactFormMutation = useSubmitContactForm()
   const subscribeFormMutation = useSubmitSubscribeForm()
 
   const contactMessage = useTimedMessage({
     onFinish: () => contactFormMutation.reset(),
   })
+
   const subscribeMessage = useTimedMessage({
     onFinish: () => subscribeFormMutation.reset(),
   })
 
-  const handleContactInputChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = event.target
+  const {
+    register: registerContactForm,
+    control: contactFormControl,
+    handleSubmit: handleContactFormSubmit,
+    reset: resetContactForm,
+    formState: { errors: contactFormErrors },
+  } = useForm<ContactFormValues>({
+    defaultValues: initialContactFormValues,
+    resolver: zodResolver(contactFormSchema),
+    mode: "onBlur",
+  })
 
-    if (contactFormMutation.isSuccess || contactFormMutation.isError) {
+  const {
+    register: registerSubscribeForm,
+    handleSubmit: handleSubscribeFormSubmit,
+    reset: resetSubscribeForm,
+    formState: { errors: subscribeFormErrors },
+  } = useForm<SubscribeFormValues>({
+    defaultValues: initialSubscribeFormValues,
+    resolver: zodResolver(subscribeFormSchema),
+    mode: "onBlur",
+  })
+
+  const resetContactMutationState = () => {
+    if(contactFormMutation.isSuccess || contactFormMutation.isError) {
       contactFormMutation.reset()
     }
-
-    setContactFormValues((prev) => ({
-      ...prev,
-      [name]: value
-    }))
-
-    setContactFormErrors((prev) => ({
-      ...prev,
-      [name]: ""
-    }))
   }
 
-  const handleSubscribeInputChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const { name, value, type, checked } = event.target
-
-    if (subscribeFormMutation.isSuccess || subscribeFormMutation.isError) {
+  const resetSubscribeMutationState = () => {
+    if(subscribeFormMutation.isSuccess || subscribeFormMutation.isError) {
       subscribeFormMutation.reset()
     }
-
-    setSubscribeFormValues((prev) => ({
-      ...prev,
-      [name]: type === "checkbox" ? checked : value
-    }))
-
-    setSubscribeFormErrors((prev) => ({
-      ...prev,
-      [name]: ""
-    }))
   }
-
   
-  const handleContactSubmit: React.SubmitEventHandler<HTMLFormElement> = async (event) => {
-    event.preventDefault()
-
-    const errors = validateContactForm(contactFormValues)
-
-    if (Object.keys(errors).length > 0) {
-      setContactFormErrors(errors)
-      return
-    }
-
+  const handleContactSubmit = async (data: ContactFormValues) => {
     try {
-      await contactFormMutation.mutateAsync(contactFormValues)
+      await contactFormMutation.mutateAsync(data)
 
-      setContactFormValues(initialContactFormValues)
-      setContactFormErrors({})
+      resetContactForm()
       contactMessage.showMessage()
     } catch (error) {
-      console.log(error);
-      contactMessage.showMessage()
+        console.error(error);
+        contactMessage.showMessage()
     }
   }
 
-
-  const handleSubscribeSubmit: React.SubmitEventHandler<HTMLFormElement> = async (event) => {
-    event.preventDefault()
-
-    const errors = validateSubscribeForm(subscribeFormValues)
-
-    if (Object.keys(errors).length > 0) {
-      setSubscribeFormErrors(errors)
-      return
-    }
-
+  const handleSubscribeSubmit = async (data: SubscribeFormValues) => {
     try {
-      await subscribeFormMutation.mutateAsync(subscribeFormValues)
+      await subscribeFormMutation.mutateAsync(data)
 
-      setSubscribeFormValues(initialSubscribeFormValues)
-      setSubscribeFormErrors({})
+      resetSubscribeForm()
       subscribeMessage.showMessage()
     } catch (error) {
-      console.log(error);
-      subscribeMessage.showMessage()
+        console.error(error);
+        subscribeMessage.showMessage()
     }
   }
-
-
-
-
 
   return (
     <section className="contact-section" id="contact-section" aria-labelledby="contact-section-title">
@@ -132,7 +105,7 @@ export const ContactSection = () => {
           <div className="contact-section__column">
             <form 
               className="contact-section__form contact-form"
-              onSubmit={handleContactSubmit}
+              onSubmit={handleContactFormSubmit(handleContactSubmit)}
             >
               <h3 className="contact-form__title">Свяжитесь с нами</h3>
 
@@ -144,16 +117,16 @@ export const ContactSection = () => {
                   <input 
                     className="contact-form__input" 
                     id="contact-name" 
-                    name="name" 
                     type="text" 
                     placeholder="Ваше имя" 
-                    autoComplete="name" 
-                    value={contactFormValues.name}
-                    onChange={handleContactInputChange}
+                    autoComplete="name"
+                    {...registerContactForm("name", {
+                      onChange: resetContactMutationState
+                    })}
                   />
                   {contactFormErrors.name && (
                     <span className="contact-form__error">
-                      {contactFormErrors.name}
+                      {contactFormErrors.name.message}
                     </span>
                   )}
                 </div>
@@ -162,23 +135,31 @@ export const ContactSection = () => {
                   <label className="visually-hidden" htmlFor="contact-phone">
                     Ваш номер телефона
                   </label>
-                  <IMaskInput 
-                    className="contact-form__input"
-                    id="contact-form"
+
+                  <Controller
                     name="phone"
-                    mask="+{7} (000) 000-00-00"
-                    value={contactFormValues.phone}
-                    onAccept={(value) =>
-                      setContactFormValues((prev) => ({
-                        ...prev,
-                        phone: value,
-                      }))
-                    }
-                    placeholder="Ваш номер телефона"
+                    control={contactFormControl}
+                    render={({ field }) => (
+                      <IMaskInput 
+                        className="contact-form__input"
+                        id="contact-phone"
+                        name={field.name}
+                        mask="+{7} (000) 000-00-00"
+                        value={field.value}
+                        inputRef={field.ref}
+                        onBlur={field.onBlur}
+                        onAccept={(value) => {
+                          resetContactMutationState()
+                          field.onChange(value)
+                        }}
+                        placeholder="Ваш номер телефона"
+                      />
+                    )}
                   />
+                    
                   {contactFormErrors.phone && (
                     <span className="contact-form__error">
-                      {contactFormErrors.phone}
+                      {contactFormErrors.phone.message}
                     </span>
                   )}
                 </div>
@@ -196,7 +177,7 @@ export const ContactSection = () => {
                 <div className={`contact-form__message-wrap ${contactMessage.isHiding ? "is-hiding" : ""}`}>
                   <span className="contact-form__message-icon"></span>
                     <p className="contact-form__message contact-form__message--error">
-                    {(contactFormMutation.error).message}
+                    {contactFormMutation.error.message}
                   </p>
                 </div>
                 
@@ -216,7 +197,7 @@ export const ContactSection = () => {
           <div className="contact-section__column">
             <form 
               className="contact-section__form subscribe-form" 
-              onSubmit={handleSubscribeSubmit}
+              onSubmit={handleSubscribeFormSubmit(handleSubscribeSubmit)}
             >
               <h3 className="subscribe-form__title">Подпишитесь на новости</h3>
 
@@ -228,16 +209,16 @@ export const ContactSection = () => {
                   <input 
                     className="subscribe-form__input" 
                     id="subscribe-email" 
-                    name="email" 
                     type="email" 
                     placeholder="Ваш email" 
-                    autoComplete="email"  
-                    value={subscribeFormValues.email}
-                    onChange={handleSubscribeInputChange}
+                    autoComplete="email"
+                    {...registerSubscribeForm("email", {
+                      onChange: resetSubscribeMutationState 
+                    })}
                   />
                   {subscribeFormErrors.email && (
                     <span className="subscribe-form__error">
-                      {subscribeFormErrors.email}
+                      {subscribeFormErrors.email.message}
                     </span>
                   )}
                 </div>
@@ -255,12 +236,14 @@ export const ContactSection = () => {
                 <input 
                   className="checkbox__input" 
                   id="subscribe-agreement" 
-                  name="agreement" 
                   type="checkbox" 
-                  checked={subscribeFormValues.agreement}
-                  onChange={handleSubscribeInputChange}
+                  {...registerSubscribeForm("agreement", {
+                    onChange: resetSubscribeMutationState ,
+                  })}
                   />
+
                 <span className="checkbox__box" aria-hidden="true"></span>
+
                 <span className="checkbox__label">
                   Я ознакомлен(а) с политикой конфиденциальности и согласен(а) с обработкой
                   персональных данных
@@ -268,14 +251,14 @@ export const ContactSection = () => {
               </label>
               {subscribeFormErrors.agreement && (
                 <span className="subscribe-form__error">
-                  {subscribeFormErrors.agreement}
+                  {subscribeFormErrors.agreement.message}
                 </span>
               )}
 
               {subscribeFormMutation.isError && subscribeMessage.isVisible && (
                 <div className={`subscribe-form__message-wrap ${subscribeMessage.isHiding ? "is-hiding" : ""}`}>
                   <p className="subscribe-form__message subscribe-form__message--error">
-                    {(subscribeFormMutation.error).message}
+                    {subscribeFormMutation.error.message}
                   </p>
                 </div>
               )}
