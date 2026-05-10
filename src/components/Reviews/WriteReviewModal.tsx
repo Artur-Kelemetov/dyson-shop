@@ -1,27 +1,46 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react"
+import type { ChangeEvent, DragEvent, MouseEvent } from "react"
+import { Controller, useForm } from "react-hook-form"
+import { zodResolver } from "@hookform/resolvers/zod"
 import "./WriteReviewModal.scss"
 import iconStar from "../../assets/icons/icon-star-write-review-modal.svg"
 import iconStarEmpty from "../../assets/icons/icon-star-empty-write-review-modal.svg"
-import { validateComment, validateReviewForm, type ReviewFormErrors } from "../../utils/validation/reviewValidation";
-import { validateAuthor } from "../../utils/validation/validation";
-import { createReview } from "../../api/reviews";
-import { useQueryClient } from "@tanstack/react-query";
-
-const MAX_RATING = 5
+import {
+  MAX_REVIEW_RATING,
+  reviewFormSchema,
+  type ReviewFormValues
+} from "../../utils/validation/reviewValidation"
+import { createReview } from "../../api/reviews"
+import { useQueryClient } from "@tanstack/react-query"
 
 type WriteReviewModalProps = {
   onClose: () => void
 }
 
+const initialReviewFormValues: ReviewFormValues = {
+  rating: 0,
+  author: "",
+  comment: "",
+}
+
 export const WriteReviewModal = ({ onClose }: WriteReviewModalProps) => {
-  const [rating, setRating] = useState(0)
-  const [author, setAuthor] = useState("")
-  const [comment, setComment] = useState("")
   const [photos, setPhotos] = useState<File[]>([])
-  const [errors, setErrors] = useState<ReviewFormErrors>({})
   const [isDragOver, setIsDragOver] = useState(false)
 
+  const queryClient = useQueryClient()
   const isOverlayMouseDownRef = useRef(false)
+
+  const {
+    register,
+    control,
+    handleSubmit,
+    clearErrors,
+    formState: { errors },
+  } = useForm<ReviewFormValues>({
+    defaultValues: initialReviewFormValues,
+    resolver: zodResolver(reviewFormSchema),
+    mode: "onBlur",
+  })
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -30,48 +49,46 @@ export const WriteReviewModal = ({ onClose }: WriteReviewModalProps) => {
       }
     }
 
-      document.addEventListener("keydown", handleKeyDown)
+    document.addEventListener("keydown", handleKeyDown)
 
-      return () => {
-        document.removeEventListener("keydown", handleKeyDown)
-      }
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown)
+    }
   }, [onClose])
 
   const handleOverlayClick = () => {
     onClose()
   }
 
-  const queryClient = useQueryClient()
-
-  const handleModalClick = (event: React.MouseEvent<HTMLDivElement>) => {
+  const handleModalClick = (event: MouseEvent<HTMLDivElement>) => {
     event.stopPropagation()
   }
 
   const updatePhotos = (files: FileList | null) => {
     if (!files) return
 
-    const imageFiles = Array.from(files).filter((file) => 
+    const imageFiles = Array.from(files).filter((file) =>
       file.type.startsWith("image/")
     )
 
     setPhotos((prev) => [...prev, ...imageFiles])
   }
 
-  const handlePhotoChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handlePhotoChange = (event: ChangeEvent<HTMLInputElement>) => {
     updatePhotos(event.target.files)
   }
 
-  const handleDragEnter = (event: React.DragEvent<HTMLLabelElement>) => {
+  const handleDragEnter = (event: DragEvent<HTMLLabelElement>) => {
     event.preventDefault()
     setIsDragOver(true)
   }
 
-  const handleDragOver = (event: React.DragEvent<HTMLLabelElement>) => {
+  const handleDragOver = (event: DragEvent<HTMLLabelElement>) => {
     event.preventDefault()
     setIsDragOver(true)
   }
 
-  const handleDragLeave = (event: React.DragEvent<HTMLLabelElement>) => {
+  const handleDragLeave = (event: DragEvent<HTMLLabelElement>) => {
     event.preventDefault()
 
     if (!event.currentTarget.contains(event.relatedTarget as Node)) {
@@ -79,42 +96,18 @@ export const WriteReviewModal = ({ onClose }: WriteReviewModalProps) => {
     }
   }
 
-  const handleDrop = (event: React.DragEvent<HTMLLabelElement>) => {
+  const handleDrop = (event: DragEvent<HTMLLabelElement>) => {
     event.preventDefault()
     setIsDragOver(false)
 
     updatePhotos(event.dataTransfer.files)
   }
 
-  const handleFieldBlur = (fieldName: "author" | "comment") => {
-    let error = ""
-
-    if (fieldName === "author") {
-      error = validateAuthor(author)
-    }
-
-    if (fieldName === "comment") {
-      error = validateComment(comment)
-    }
-
-    setErrors((prev) => ({
-      ...prev, [fieldName]: error || undefined
-    }))
-  }
-
-  const handleFieldFocus = (fieldName: "author" | "comment") => {
-    if(errors[fieldName]) {
-      setErrors((prev) => ({
-        ...prev, [fieldName]: undefined
-      }))
-    }
-  }
-
-  const handleOverlayMouseDown = (event: React.MouseEvent<HTMLDivElement>) => {
+  const handleOverlayMouseDown = (event: MouseEvent<HTMLDivElement>) => {
     isOverlayMouseDownRef.current = event.target === event.currentTarget
   }
 
-  const handleOverlayMouseUp = (event: React.MouseEvent<HTMLDivElement>) => {
+  const handleOverlayMouseUp = (event: MouseEvent<HTMLDivElement>) => {
     const isOverlayClick = isOverlayMouseDownRef.current && event.target === event.currentTarget
 
     isOverlayMouseDownRef.current = false
@@ -124,42 +117,30 @@ export const WriteReviewModal = ({ onClose }: WriteReviewModalProps) => {
     }
   }
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-
-    const newErrors = validateReviewForm({
-      rating,
-      author,
-      comment
-    })
-
-    setErrors(newErrors)
-
-    if (Object.keys(newErrors).length > 0) {
-      return
-    }
-
+  const handleReviewSubmit = async (data: ReviewFormValues) => {
     try {
+      const createdAt = new Date()
+
       await createReview({
-        rating,
-        author: author.trim(),
-        comment: comment.trim(),
+        rating: data.rating,
+        author: data.author,
+        comment: data.comment,
         photos: photos.map((photo) => photo.name),
-        date: new Date().toLocaleDateString("ru-RU"),
-        dateTime: new Date().toISOString().split("T")[0]
+        date: createdAt.toLocaleDateString("ru-RU"),
+        dateTime: createdAt.toISOString().split("T")[0]
       })
 
       queryClient.invalidateQueries({ queryKey: ["reviews"] })
 
       onClose()
     } catch (error) {
-      console.log("Не удалось отправить отзыв:", error);
+      console.log("Не удалось отправить отзыв:", error)
     }
   }
 
   return (
-    <div 
-      className="write-review-modal" 
+    <div
+      className="write-review-modal"
       onMouseDown={handleOverlayMouseDown}
       onMouseUp={handleOverlayMouseUp}
       >
@@ -172,110 +153,98 @@ export const WriteReviewModal = ({ onClose }: WriteReviewModalProps) => {
 
         <h2 className="write-review-modal__title">Написать отзыв</h2>
 
-        <form action="" className="write-review-modal__form" onSubmit={handleSubmit}>
-          <div className="write-review-modal__field write-review-modal__field--rating">
-            <span className="write-review-modal__label">Оценка</span>
+        <form className="write-review-modal__form" onSubmit={handleSubmit(handleReviewSubmit)}>
+          <Controller
+            name="rating"
+            control={control}
+            render={({ field }) => (
+              <div className="write-review-modal__field write-review-modal__field--rating">
+                <span className="write-review-modal__label">Оценка</span>
 
-            <div className="write-review-modal__stars">
-              {Array.from({ length: MAX_RATING }, (_, index) => {
-                const starValue = index + 1
-                const isFilled = starValue <= rating
+                <div className="write-review-modal__stars">
+                  {Array.from({ length: MAX_REVIEW_RATING }, (_, index) => {
+                    const starValue = index + 1
+                    const isFilled = starValue <= field.value
 
-                return (
-                  <button 
-                    key={index} 
-                    className="write-review-modal__star-button"
-                    type="button"
-                    aria-label={`Поставить ${starValue} из ${MAX_RATING}`}
-                    onClick={() => {
-                      setRating((prev) => (prev === starValue ? 0 : starValue))
-                      if (errors.rating) {
-                        setErrors((prev) => ({...prev, rating: undefined}))
-                      }
-                    }}
-                    >
-                      <img 
-                        className="write-review-modal__star" 
-                        src={isFilled ? iconStar : iconStarEmpty} 
-                        alt=""
-                        aria-hidden="true"
+                    return (
+                      <button
+                        key={index}
+                        className="write-review-modal__star-button"
+                        type="button"
+                        aria-label={`Поставить ${starValue} из ${MAX_REVIEW_RATING}`}
+                        onClick={() => {
+                          field.onChange(field.value === starValue ? 0 : starValue)
+                          clearErrors("rating")
+                        }}
+                      >
+                        <img
+                          className="write-review-modal__star"
+                          src={isFilled ? iconStar : iconStarEmpty}
+                          alt=""
+                          aria-hidden="true"
                         />
-                  </button>
-                )
-              })}
-            </div>
+                      </button>
+                    )
+                  })}
+                </div>
 
-            {errors.rating && (
-              <p className="write-review-modal__error">{errors.rating}</p>
+                {errors.rating && (
+                  <p className="write-review-modal__error">{errors.rating.message}</p>
+                )}
+              </div>
             )}
-          </div>
+          />
 
           <div className={`write-review-modal__field write-review-modal__field--author ${errors.author ? "is-invalid" : ""}`}>
-            <input 
-              type="text" 
-              className="write-review-modal__input" 
-              placeholder="Ваше имя" 
-              value={author} 
-              onChange={(event) => {
-                setAuthor(event.target.value)
-                if (errors.author) {
-                  setErrors((prev) => ({...prev, author: undefined}) )
-                }
-              }}
-              onBlur={() => handleFieldBlur("author")} 
-              onFocus={() => handleFieldFocus("author")}
+            <input
+              type="text"
+              className="write-review-modal__input"
+              placeholder="Ваше имя"
+              autoComplete="name"
+              {...register("author")}
             />
 
             {errors.author && (
-              <p className="write-review-modal__error">{errors.author}</p>
+              <p className="write-review-modal__error">{errors.author.message}</p>
             )}
-
           </div>
 
           <div className={`write-review-modal__field write-review-modal__field--comment ${errors.comment ? "is-invalid" : ""}`}>
-            <textarea 
-              className="write-review-modal__textarea" 
-              placeholder="Комментарий" 
-              value={comment} 
-              onChange={(event) => {
-                setComment(event.target.value)
-                if (errors.comment) {
-                  setErrors((prev) => ({...prev, comment: undefined}))
-                }
-              }} 
-              onBlur={() => handleFieldBlur("comment")} 
-              onFocus={() => handleFieldFocus("comment")}
-              />
+            <textarea
+              className="write-review-modal__textarea"
+              placeholder="Комментарий"
+              {...register("comment")}
+            />
 
-              {errors.comment && (
-                <p className="write-review-modal__error">{errors.comment}</p>
-              )}
+            {errors.comment && (
+              <p className="write-review-modal__error">{errors.comment.message}</p>
+            )}
           </div>
 
           <div className="write-review-modal__field write-review-modal__field--upload">
-            <input 
-              className="write-review-modal__file-input" 
+            <input
+              className="write-review-modal__file-input"
               id="review-photos"
-              type="file" 
-              multiple 
-              accept="image/*" 
+              type="file"
+              multiple
+              accept="image/*"
               onChange={handlePhotoChange}
-              />
+            />
 
-            <label 
-              htmlFor="review-photos" 
+            <label
+              htmlFor="review-photos"
               className={`write-review-modal__upload ${isDragOver ? "is-drag-over" : ""}`}
               onDragEnter={handleDragEnter}
               onDragOver={handleDragOver}
               onDragLeave={handleDragLeave}
               onDrop={handleDrop}
-              >
+            >
               <span className="write-review-modal__upload-title">
                 Загрузить фото
               </span>
               <span className="write-review-modal__upload-text">
-                Нажмите кнопку “Загрузить фото” или перетащите 
-                <br /> 
+                Нажмите кнопку “Загрузить фото” или перетащите
+                <br />
                 фотографию в эту область
               </span>
             </label>
